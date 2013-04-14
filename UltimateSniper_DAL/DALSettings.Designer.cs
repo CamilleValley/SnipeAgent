@@ -36,7 +36,7 @@ namespace UltimateSniper_DAL {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Provider=sqloledb;Data Source=db2.3essentials.com;User Id=snipeagent_user;Passwor" +
-            "d=XXX; ")]
+            "d=CAms1982##; ")]
         public string DBConnexionStringProd {
             get {
                 return ((string)(this["DBConnexionStringProd"]));
