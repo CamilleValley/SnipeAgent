@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UltimateSniper_Services" GeneratedClassName="ServicesSettingsProduction">
+  <Profiles />
+  <Settings>
+    <Setting Name="eBayUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://api.ebay.com/wsapi</Value>
+    </Setting>
+    <Setting Name="eBayVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">667</Value>
+    </Setting>
+    <Setting Name="EndUserIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10.10.2.155</Value>
+    </Setting>
+    <Setting Name="SignInURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&amp;RuName={0}&amp;SessID={1}</Value>
+    </Setting>
+    <Setting Name="RUName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Camille_Valley-CamilleV-0118-4-nbmuievuz</Value>
+    </Setting>
+    <Setting Name="eBayFindingUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://svcs.ebay.com/services/search/FindingService/v1</Value>
+    </Setting>
+    <Setting Name="nbAPIRetry" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="SMTPAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mail.snipeagent.com</Value>
+    </Setting>
+    <Setting Name="DefaultGeteBayTimeToken" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AgAAAA**AQAAAA**aAAAAA**8gABTA**nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wJmIulDJGLqAWdj6x9nY+seQ**ytMAAA**AAMAAA**0dqu2CDl9jng9LJ2zSL2n7E1Z/Rx62bFOtunVNXRgxn07jnq5ZbztiepB0iZVqz+k5MDPRi17Zskx906GBWo99dN2DKOGuU/enaeBfznkdlYbcp9GYYT8TqTPF+zaFj/iBJsTjgR4V75/B2fYA/BHEDaOqbWUKCgqW8UJx+RE98jXmb9+e3sz6/XWmvgZ6USE6pwoxzdDE4rxrziYfoURTEqYp2Xacbb9W9SC2qIg6qhm8dWdkYSsCoAUcf1c0bXf1oinTj+T6SHaYvrGLGPA6evIbTp+K0jf7IFCHH4npfbXxDwz96hV44JfqZiLvVApWOCv+T+/DyE1/DbxyOdtgmbGsvxNUlOYKh3YoSicSpDcAwkWqVCh8ckjNINdGwU9SEilHG7Cgez86NgjGvGcc3qXfbcY01AEVrmXegzFUcm7KHcBaZYe9GvaEuHHRez6GwwoPKekdCEZQe1etbDs2YAEVp6u7vjhXT9AFa45icA6hUxf3+f4IQ5Y8sEATi1ia7t9fo+Mr71GZUoD6S6sBlumKuX0XfkEfOoZrrupbxziFfPMntRT3xWY5lb2MZy01vEaJdkPhCH9+qpaewg356+PeHc6C9CC6dRYXQIeEy15eNalpbnaQmMnm0DBGc7U+J5DGXUAUO6csDcRM3rdx9Koe0uBI+DaOi/NP437AQu2yN7DB8EhNPGXQshW8lBCVWrcETrnad0QqrRoiMXUY+ukgwFxpPB68kBNBU3quAt7QDSuRLbL6FTIvoT8YnN</Value>
+    </Setting>
+    <Setting Name="DefaultGeteBayTimeTokenExpirationDate" Type="System.DateTime" Scope="Application">
+      <Value Profile="(Default)">11/20/2011 11:56:34</Value>
+    </Setting>
+    <Setting Name="PayPalGateway" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> https://www.paypal.com/cgi-bin/webscr</Value>
+    </Setting>
+    <Setting Name="ShoppingServerUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://open.api.ebay.com/shopping</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

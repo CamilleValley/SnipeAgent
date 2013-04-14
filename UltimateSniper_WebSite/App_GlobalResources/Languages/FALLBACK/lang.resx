@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Home_explainations" xml:space="preserve">
+    <value>In whatever</value>
+  </data>
+  <data name="UCCategoryManagement_btnAddNew" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="UCCategoryManagement_btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="UCCategoryManagement_btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="UCCategoryManagement_btnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="UCMenu_LogIn" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="UCSnipeDetails_btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="UCSnipeDetails_btnDisable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="UCSnipeDetails_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UCSnipeDetails_ItemEndDate" xml:space="preserve">
+    <value>Item end date:</value>
+  </data>
+  <data name="UCSnipeDetails_ItemID" xml:space="preserve">
+    <value>Item Id:</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeBid" xml:space="preserve">
+    <value>Your maximum bid:</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeCategories" xml:space="preserve">
+    <value>Categories:</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeDelay" xml:space="preserve">
+    <value>Delay in seconds:</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeDescription" xml:space="preserve">
+    <value>Description of the snipe:</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeName" xml:space="preserve">
+    <value>Name of the snipe:</value>
+  </data>
+  <data name="UCSnipeIt_btnGetInfo" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="UCSnipeIt_ItemCurrentPrice" xml:space="preserve">
+    <value>Item last known price:</value>
+  </data>
+  <data name="UCSnipeIt_ItemID" xml:space="preserve">
+    <value>Item id or URL to snipe:</value>
+  </data>
+  <data name="UCSnipeIt_ItemTitle" xml:space="preserve">
+    <value>Item title:</value>
+  </data>
+  <data name="UserDetails_btnDisable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="UserDetails_btnRedirect" xml:space="preserve">
+    <value>Sign in eBay</value>
+  </data>
+  <data name="UserDetails_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UserDetails_TokenExpirationDate" xml:space="preserve">
+    <value>&lt;br /&gt;Your eBay account is associated till:</value>
+  </data>
+  <data name="UserDetails_UserActivityDate" xml:space="preserve">
+    <value>User active since:</value>
+  </data>
+  <data name="UserDetails_UserCurrency" xml:space="preserve">
+    <value>Currency:</value>
+  </data>
+  <data name="UserDetails_UserEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="UserDetails_UserName" xml:space="preserve">
+    <value>User name:</value>
+  </data>
+  <data name="UserDetails_UserPassword" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="UserDetails_UserSiteID" xml:space="preserve">
+    <value>Site registration:</value>
+  </data>
+  <data name="AboutUs_btnSendEmail" xml:space="preserve">
+    <value>Send question</value>
+  </data>
+  <data name="AboutUs_Contact" xml:space="preserve">
+    <value>You can reach us by sumitting this form:</value>
+  </data>
+  <data name="AboutUs_EmailBody" xml:space="preserve">
+    <value>Your message:</value>
+  </data>
+  <data name="AboutUs_EmailTitle" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="AboutUs_Info" xml:space="preserve">
+    <value>As ex eBay employees, we know from inside how eBay systems work and could develop the perfect snipe solution. &lt;br /&gt;&lt;br /&gt;
+If you are happy with our services, You can contribute directly through a PayPal donation. PayPal is a way for you to send and receive money via e-mail.&lt;br /&gt; &lt;br /&gt;
+Donating would help us pay our server bills and keep the service free.
+&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="AboutUs_UserEmailAddress" xml:space="preserve">
+    <value>Your email:</value>
+  </data>
+  <data name="UserDetails_AccountAssociated" xml:space="preserve">
+    <value>yes</value>
+  </data>
+  <data name="UserDetails_AccountNotAssociated" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="UserDetails_Alerts" xml:space="preserve">
+    <value>Receive alerts when your snipes are overbidded</value>
+  </data>
+  <data name="UserDetails_Categories" xml:space="preserve">
+    <value>Organise your snipe into categories. Successful snipes will cancel the snipes from the same categories.</value>
+  </data>
+  <data name="UserDetails_Donation" xml:space="preserve">
+    <value>&lt;br/&gt;Help us keep the service free:</value>
+  </data>
+  <data name="UserDetails_ExtendOptions" xml:space="preserve">
+    <value>&lt;p&gt;Extend your Option Pack for 6 months. Its only 10$!&lt;/p&gt;</value>
+  </data>
+  <data name="UserDetails_Mobile" xml:space="preserve">
+    <value>Access Snipe Agent on your mobile and manage your snipes where ever you are: m.snipeagent.com</value>
+  </data>
+  <data name="UserDetails_OptionsExplaination" xml:space="preserve">
+    <value>&lt;p&gt;To welcome you, get the Option Pack for free for 2 months:&lt;/p&gt;</value>
+  </data>
+  <data name="UserDetails_Support" xml:space="preserve">
+    <value>Contact us and receive support in the best delay</value>
+  </data>
+  <data name="UserDetails_UserOptionPackEndDate" xml:space="preserve">
+    <value>The Option Pack is valid till:</value>
+  </data>
+  <data name="UCSnipeDetails_ckbx_AutoSnipe" xml:space="preserve">
+    <value>Auto retry with similar item:</value>
+  </data>
+  <data name="Home_Alert" xml:space="preserve">
+    <value>&lt;p&gt;Alert mechanism:&lt;/p&gt; 
+The current auction price is above your snipe bid? You will receive an alert by email giving you a chance to revise your bid and avoid future disappointment.</value>
+  </data>
+  <data name="Home_Free" xml:space="preserve">
+    <value>Our sniping service is free. Create your account in a couple of seconds and enjoy winning auctions at the best possible price.</value>
+  </data>
+  <data name="Home_Mobility" xml:space="preserve">
+    <value>You aren’t at home but you have a new auction to snipe or received on your mobile an overbid alert and want to modify your snipe (m.snipeagent.com).
+Use Snipe Agent mobile features and win your auctions where ever you are.</value>
+  </data>
+  <data name="Home_Security" xml:space="preserve">
+    <value>Unlike most of the other snipe tools, we will never ask for your eBay credentials. &lt;br/&gt;
+We follow instead the official authorization process provided by eBay.&lt;br/&gt;</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Snipe Agent, your eBay partner</value>
+  </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="UCCategoryManagement_txtBxName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="UCMenu_AboutUs" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="UCMenu_Features" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="UCMenu_ForgotPassword" xml:space="preserve">
+    <value>Forgot password</value>
+  </data>
+  <data name="UCMenu_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="UCMenu_LogOut" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="UCMenu_Mobility" xml:space="preserve">
+    <value>Mobility</value>
+  </data>
+  <data name="UCMenu_MyCategories" xml:space="preserve">
+    <value>My groups</value>
+  </data>
+  <data name="UCMenu_MyInfo" xml:space="preserve">
+    <value>My information</value>
+  </data>
+  <data name="UCMenu_MySnipes" xml:space="preserve">
+    <value>My snipes</value>
+  </data>
+  <data name="UCMenu_Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="UCSnipeDetails_Increase" xml:space="preserve">
+    <value>Increase:</value>
+  </data>
+  <data name="UCSnipeDetails_NbRetry" xml:space="preserve">
+    <value>Number of auto retry:</value>
+  </data>
+  <data name="UserDetails_GetToken" xml:space="preserve">
+    <value>EBay account associated:</value>
+  </data>
+  <data name="UserDetails_RegistrationConfirmation" xml:space="preserve">
+    <value>&lt;p&gt;Thanks for registering.&lt;/p&gt;
+&lt;p&gt;You will now be redirected to eBay sign in. Please click on the button "Assing my eBay account"&lt;/p&gt;</value>
+  </data>
+  <data name="UCSnipeDetails_ItemCurrentPrice" xml:space="preserve">
+    <value>Item current price:</value>
+  </data>
+  <data name="UCSnipeDetails_ItemSellerID" xml:space="preserve">
+    <value>Seller ID:</value>
+  </data>
+  <data name="UCSnipeDetails_DefaultText" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="SnipeManagement_All" xml:space="preserve">
+    <value>All snipes</value>
+  </data>
+  <data name="SnipeManagement_ListTypeSelection" xml:space="preserve">
+    <value>Select which snipes to display:</value>
+  </data>
+  <data name="SnipeManagement_Open" xml:space="preserve">
+    <value>Open snipes</value>
+  </data>
+  <data name="SnipeManagement_Recent" xml:space="preserve">
+    <value>Only recent</value>
+  </data>
+  <data name="SnipeManagement_Won" xml:space="preserve">
+    <value>Won snipes</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeStatus" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="Categories_Explainations" xml:space="preserve">
+    <value>&lt;p&gt;Snipe Agent allows you to organise your snipes in groups. Most of the time a group will contain similar items from different sellers. As soon as you win one auction at the price you want, we'll automatically cancel the rest of your bids, for the selected group.&lt;/p&gt;&lt;p&gt;From this page, you can manage your groups.&lt;/p&gt;</value>
+  </data>
+  <data name="Categories_Title" xml:space="preserve">
+    <value>Manage my groups</value>
+  </data>
+  <data name="SnipeManagement_Details" xml:space="preserve">
+    <value>You cancel or modify your snipes until the last second, except the delay.</value>
+  </data>
+  <data name="SnipeManagement_Explainations" xml:space="preserve">
+    <value>With Snipe Agent, you have the power to effectively manage your snipes until the last few seconds of an auction.</value>
+  </data>
+  <data name="SnipeManagement_Title" xml:space="preserve">
+    <value>Manage my snipes</value>
+  </data>
+  <data name="UserDetails_ConfirmDisable" xml:space="preserve">
+    <value>Are you sure you want to disable permanently your account?</value>
+  </data>
+  <data name="UCCategoryManagement_ConfirmCancel" xml:space="preserve">
+    <value>Are you sure you want to cancel your changes?</value>
+  </data>
+  <data name="UCCategoryManagement_ConfirmDelete" xml:space="preserve">
+    <value>Are you sure you want to delete this category?</value>
+  </data>
+  <data name="UCSnipeDetails_ConfirmCancel" xml:space="preserve">
+    <value>Are you sure you want to cancel your changes?</value>
+  </data>
+  <data name="UCSnipeDetails_ConfirmCreation" xml:space="preserve">
+    <value>Are you sure you want to snipe this item?</value>
+  </data>
+  <data name="UCSnipeDetails_ConfirmDelete" xml:space="preserve">
+    <value>Are you sure you want to cancel this snipe?</value>
+  </data>
+  <data name="UCSnipeDetails_ConfirmSave" xml:space="preserve">
+    <value>Are you sure you want to save the changes you made?</value>
+  </data>
+  <data name="AboutUs_Title" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="ForgotPassword_btnSendPassword" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ForgotPassword_EmailOrName" xml:space="preserve">
+    <value>Type your email or your user name:</value>
+  </data>
+  <data name="ForgotPassword_Title" xml:space="preserve">
+    <value>Receive your password by email</value>
+  </data>
+  <data name="UserDetails_Title" xml:space="preserve">
+    <value>Manage your information / Create an account</value>
+  </data>
+  <data name="UCMenu_Name" xml:space="preserve">
+    <value>Login:</value>
+  </data>
+  <data name="UCMenu_Password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="UCMenu_WhatsSnipe" xml:space="preserve">
+    <value>Why</value>
+  </data>
+  <data name="Features_Title" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="ForgotPassword_Explaination" xml:space="preserve">
+    <value>To obtain your password, please enter your e-mail address and it will be emailed to you.</value>
+  </data>
+  <data name="Home_Explanations" xml:space="preserve">
+    <value>Snipe Agent is a system allowing you manage online your auction in a more efficient way.</value>
+  </data>
+  <data name="UCSnipeIt_NewSnipe" xml:space="preserve">
+    <value>Create a new snipe:</value>
+  </data>
+  <data name="WhatsSnipe_Title" xml:space="preserve">
+    <value>Why should you use our services</value>
+  </data>
+  <data name="UCSnipeDetails_AutoRetryHelp" xml:space="preserve">
+    <value>Often, professional sellers propose several time the same item. If you lose an auction, we will look automatically if a similar item is available and will create a snipe. You have the possibility to increase your bid between each try to maximize your chance of winning. You need to have the Option Pack to use this option.</value>
+  </data>
+  <data name="UCSnipeDetails_CurrencyHelp" xml:space="preserve">
+    <value>Your bid will be converted to the item currency, if they are different.</value>
+  </data>
+  <data name="UserDetails_SiteIDHelp" xml:space="preserve">
+    <value> This is the site we will use to interact with eBay. This will condition the language of the emails sent to you by eBay.</value>
+  </data>
+  <data name="SnipeManagement_NoSnipe" xml:space="preserve">
+    <value>No snipe to be displayed!</value>
+  </data>
+  <data name="UCSnipeDetails_DelayHelp" xml:space="preserve">
+    <value>To respect eBay policies, your bid will be placed randomly in the last 15 seconds of the bid.</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeDelayInfo" xml:space="preserve">
+    <value>Random btw 5 and 15 secs</value>
+  </data>
+  <data name="Features_Alert" xml:space="preserve">
+    <value>Alert messages:</value>
+  </data>
+  <data name="Features_AlertExp" xml:space="preserve">
+    <value>Every 24h, your snipe will be checked. If you have been overbidded, you will receive an email.</value>
+  </data>
+  <data name="Features_AutoRetry" xml:space="preserve">
+    <value>Auto retry:</value>
+  </data>
+  <data name="Features_AutoRetryExp" xml:space="preserve">
+    <value>Often, professional sellers propose several time the same item. 
+        If you lose an auction, we will look automatically if a similar item is available and will create a snipe.
+        You have the possibility to increase your bid between each try to maximize your chance of winning.</value>
+  </data>
+  <data name="Features_Free" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="Features_Group" xml:space="preserve">
+    <value>Group sniping:</value>
+  </data>
+  <data name="Features_GroupExp" xml:space="preserve">
+    <value>This feature allows you to bid on the same item from different sellers. 
+            As soon as you win one auction at the price you want, we'll automatically cancel the rest of your bids.</value>
+  </data>
+  <data name="Features_Mobile" xml:space="preserve">
+    <value>Mobile website m.snipeagent.com:</value>
+  </data>
+  <data name="Features_MobileExp" xml:space="preserve">
+    <value>Use the mobile website to create or modify snipes.
+        This is the perfect complement to the alert system!</value>
+  </data>
+  <data name="Features_OptionPack" xml:space="preserve">
+    <value>Option Pack</value>
+  </data>
+  <data name="Features_Security" xml:space="preserve">
+    <value>Security:</value>
+  </data>
+  <data name="Features_SecurityExp" xml:space="preserve">
+    <value>Unlike most of the other snipe tools, we will never ask for your eBay credentials. 
+    We follow instead the official authorization process provided by eBay.
+    Why that?&lt;br /&gt;
+    - For security reasons and as required by eBay, you should never share your credentials with anyone.&lt;br /&gt;
+    - Moreover, you can modify your credentials on eBay with no risk for your snipes</value>
+  </data>
+  <data name="Features_SnipeSystem" xml:space="preserve">
+    <value>Snipe system:</value>
+  </data>
+  <data name="Features_SnipeSystemExp" xml:space="preserve">
+    <value>Create as many snipes as you want using our sleack and user friendly website.
+            You have the possibility to modify them until the last seconds of the auction.</value>
+  </data>
+  <data name="Features_Update" xml:space="preserve">
+    <value>Regular update:</value>
+  </data>
+  <data name="Features_UpdateExp" xml:space="preserve">
+    <value>In its last day, the auction is checked every 10 minutes.
+        If you have been outbidded, you will receive instantly an email.</value>
+  </data>
+  <data name="WhatsSnipe_AutoRetry" xml:space="preserve">
+    <value>Auto retry with similar items from the same seller.</value>
+  </data>
+  <data name="WhatsSnipe_BiddingWar" xml:space="preserve">
+    <value>Sniping will keep you out of bidding wars</value>
+  </data>
+  <data name="WhatsSnipe_Change" xml:space="preserve">
+    <value>You can change your mind until the last seconds.</value>
+  </data>
+  <data name="WhatsSnipe_ExtraFeatures" xml:space="preserve">
+    <value>Extra features:</value>
+  </data>
+  <data name="WhatsSnipe_Group" xml:space="preserve">
+    <value>Groups bidding: bid on the same item from different sellers</value>
+  </data>
+  <data name="WhatsSnipe_NoDL" xml:space="preserve">
+    <value>You don't need to install anything on your computer!</value>
+  </data>
+  <data name="WhatsSnipe_NoPC" xml:space="preserve">
+    <value>Your computer doesn't have to be on to have the snipes working.</value>
+  </data>
+  <data name="WhatsSnipe_Online" xml:space="preserve">
+    <value>Online service:</value>
+  </data>
+  <data name="WhatsSnipe_Policies" xml:space="preserve">
+    <value>Respect of eBay policies:</value>
+  </data>
+  <data name="WhatsSnipe_RandomCredentials" xml:space="preserve">
+    <value>We don't ask for your eBay credentials</value>
+  </data>
+  <data name="WhatsSnipe_RandomDelay" xml:space="preserve">
+    <value>The bid will be placed randomnly in the last 15 seconds</value>
+  </data>
+  <data name="WhatsSnipe_SecretBid" xml:space="preserve">
+    <value>Sniping will hide your bid price from other bidders</value>
+  </data>
+  <data name="WhatsSnipe_Snipes" xml:space="preserve">
+    <value>Snipes:</value>
+  </data>
+  <data name="UserDetails_btnUpdate" xml:space="preserve">
+    <value>Finish sign in</value>
+  </data>
+  <data name="UserDetails_RedirectHelpHelp" xml:space="preserve">
+    <value>Click here to assign your eBay account</value>
+  </data>
+  <data name="UserDetails_UpdateHelpHelp" xml:space="preserve">
+    <value>Click here once you signed in eBay</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeStyle" xml:space="preserve">
+    <value>Sniping style:</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeStyleBidOptimizer" xml:space="preserve">
+    <value>Bid optimizer</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeStyleClassic" xml:space="preserve">
+    <value>Classic</value>
+  </data>
+  <data name="UCSnipeDetails_ClickNBid" xml:space="preserve">
+    <value>Click n' Bid:</value>
+  </data>
+  <data name="UCSnipeDetails_SnipeStyleManual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="UserDetails_UserEbayUserID" xml:space="preserve">
+    <value>Ebay User ID</value>
+  </data>
+  <data name="UserDetails_UserEbayUserPwd" xml:space="preserve">
+    <value>Ebay User password</value>
+  </data>
+</root>

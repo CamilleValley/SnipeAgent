@@ -1,0 +1,13 @@
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\bin\Debug\uTesting_UltimateSniper_DAL.dll
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\bin\Debug\uTesting_UltimateSniper_DAL.pdb
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\bin\Debug\UltimateSniper_BusinessObjects.dll
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\bin\Debug\UltimateSniper_DAL.dll
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\bin\Debug\UltimateSniper_Logger.dll
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\bin\Debug\log4net.dll
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\bin\Debug\UltimateSniper_Logger.pdb
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\bin\Debug\log4net.xml
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\bin\Debug\UltimateSniper_DAL.pdb
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\bin\Debug\UltimateSniper_BusinessObjects.pdb
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\obj\Debug\uTesting_UltimateSniper_DAL.dll
+D:\UltimateSniper\uTesting_UltimateSniper_DAL\obj\Debug\uTesting_UltimateSniper_DAL.pdb

@@ -1,0 +1,15 @@
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\eBayKeys.xml
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\UltimateSniper_Services.dll.config
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\UltimateSniper_Services.dll
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\UltimateSniper_Services.pdb
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\UltimateSniper_BusinessObjects.dll
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\UltimateSniper_DAL.dll
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\UltimateSniper_Logger.dll
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\log4net.dll
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\UltimateSniper_BusinessObjects.pdb
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\UltimateSniper_DAL.pdb
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\UltimateSniper_Logger.pdb
+D:\UltimateSniper\UltimateSniper_Services\bin\Debug\log4net.xml
+D:\UltimateSniper\UltimateSniper_Services\obj\Debug\ResolveAssemblyReference.cache
+D:\UltimateSniper\UltimateSniper_Services\obj\Debug\UltimateSniper_Services.dll
+D:\UltimateSniper\UltimateSniper_Services\obj\Debug\UltimateSniper_Services.pdb

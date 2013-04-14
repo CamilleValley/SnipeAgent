@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UltimateSniper_Services" GeneratedClassName="ServicesSettingsSandbox">
+  <Profiles />
+  <Settings>
+    <Setting Name="eBayDevID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2d27d104-88ef-47e1-b156-f68ddc07ff4d</Value>
+    </Setting>
+    <Setting Name="eBayAppID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CamilleV-0118-4b78-9067-c02e03d2bd15</Value>
+    </Setting>
+    <Setting Name="eBayCertID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">790b9030-13e6-4311-a8fb-255006586a3f</Value>
+    </Setting>
+    <Setting Name="eBayUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://api.sandbox.ebay.com/wsapi</Value>
+    </Setting>
+    <Setting Name="eBayVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">661</Value>
+    </Setting>
+    <Setting Name="EndUserIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10.10.2.155</Value>
+    </Setting>
+    <Setting Name="SignInURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://signin.sandbox.ebay.com/ws/eBayISAPI.dll?SignIn&amp;RuName={0}&amp;SessID={1}</Value>
+    </Setting>
+    <Setting Name="RUName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Camille_Valley-CamilleV-0118-4-hfraj</Value>
+    </Setting>
+    <Setting Name="eBayFindingUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://svcs.ebay.com/services/search/FindingService/v1</Value>
+    </Setting>
+    <Setting Name="nbAPIRetry" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="SMTPAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mail.snipeagent.com</Value>
+    </Setting>
+    <Setting Name="DefaultGeteBayTimeToken" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AgAAAA**AQAAAA**aAAAAA**QQQ5Tw**nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GhCJSKpQmdj6x9nY+seQ**UUsBAA**AAMAAA**gMSCJsIvF1prIO+hMSHfB/kHBmYW75Mi5sJ2w1YgzbcwNFyutGzbf96ubTDTYXjKlTYj8FwzJKS0Zm84ipbSB8sNhdcPTMO5qzHo0d/XJG9XeDSD4I2Q/wOydCTBXTfvlvIeEOlgpjctYbVHfDEAdQ8ibs11Kjwsr77U5gy5b56h0qhXwXUjQ15rx3LsUd6f0J4TECOXfKG1BedoJvHhIeLCMx9HB9VyBSCTWVtkXaJZVsDuy6l5/IBuzjubqcv9tb/8E5aqVKvRHDnotbJlFmzi3ml9utPvRjVPsCec3uc1/qNB02ZMeYCOUNORq+x7t3T74XD+401QvxFYQYW6DZSCOy/7XbTZOtHEXZtEE1nCfWKid92KryqewGNyOji/P0T9TCL+X/vzJE9+x22vO856tBhguonssbGiwYoZAAHvpfNpe/7ni9KdboA6+V5xlVldI3Dz5sSm5Gcr+jE7nAPwu3ZwZTPd0eAemKRT6pF+5t7cbVHzMUrBc/NqG1ENm3p5SSCurgpGLX0cifOJp057NBijz1OlIfJRRvnnDY92oICzp2mLIBvD4yLy+aaKrr1fPFYHeapl3/eQzocnfsOB60gddR+QLYpmuIw78O6c9Tlu3+A0EvJTc0ctmPmRn5orkEORlPFL1ocdffArm20Wj1wMweT0Iit1Ca3n5iRaoJsZfEZFfKin9F6fv7JRqiUejY4pkwU2Ak57DMcqMzVDU9QuYgtgOiW+urUpA8N3PgulR6L3u375wD2D/tYt</Value>
+    </Setting>
+    <Setting Name="DefaultGeteBayTimeTokenExpirationDate" Type="System.DateTime" Scope="Application">
+      <Value Profile="(Default)">08/06/2013 12:38:00</Value>
+    </Setting>
+    <Setting Name="PayPalGateway" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> https://www.sandbox.paypal.com/cgi-bin/webscr</Value>
+    </Setting>
+    <Setting Name="ShoppingServerUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://open.api.sandbox.ebay.com/shopping</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

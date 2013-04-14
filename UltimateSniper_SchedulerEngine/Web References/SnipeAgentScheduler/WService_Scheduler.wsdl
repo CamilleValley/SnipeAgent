@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://ultimatesniper.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://ultimatesniper.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://ultimatesniper.com/">
+      <s:element name="Timer_CheckTime">
+        <s:complexType />
+      </s:element>
+      <s:element name="Timer_CheckTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Timer_CheckTimeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Timer_UpdateEndingSnipes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ActiveSnipe" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Timer_UpdateEndingSnipesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Timer_UpdateEndingSnipesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Timer_BidOptimizer_RefreshSnipes">
+        <s:complexType />
+      </s:element>
+      <s:element name="Timer_BidOptimizer_RefreshSnipesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Timer_BidOptimizer_RefreshSnipesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Timer_Snipe_CheckSnipeValidity">
+        <s:complexType />
+      </s:element>
+      <s:element name="Timer_Snipe_CheckSnipeValidityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Timer_Snipe_CheckSnipeValidityResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Timer_CheckTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:Timer_CheckTime" />
+  </wsdl:message>
+  <wsdl:message name="Timer_CheckTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:Timer_CheckTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="Timer_UpdateEndingSnipesSoapIn">
+    <wsdl:part name="parameters" element="tns:Timer_UpdateEndingSnipes" />
+  </wsdl:message>
+  <wsdl:message name="Timer_UpdateEndingSnipesSoapOut">
+    <wsdl:part name="parameters" element="tns:Timer_UpdateEndingSnipesResponse" />
+  </wsdl:message>
+  <wsdl:message name="Timer_BidOptimizer_RefreshSnipesSoapIn">
+    <wsdl:part name="parameters" element="tns:Timer_BidOptimizer_RefreshSnipes" />
+  </wsdl:message>
+  <wsdl:message name="Timer_BidOptimizer_RefreshSnipesSoapOut">
+    <wsdl:part name="parameters" element="tns:Timer_BidOptimizer_RefreshSnipesResponse" />
+  </wsdl:message>
+  <wsdl:message name="Timer_Snipe_CheckSnipeValiditySoapIn">
+    <wsdl:part name="parameters" element="tns:Timer_Snipe_CheckSnipeValidity" />
+  </wsdl:message>
+  <wsdl:message name="Timer_Snipe_CheckSnipeValiditySoapOut">
+    <wsdl:part name="parameters" element="tns:Timer_Snipe_CheckSnipeValidityResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WService_SchedulerSoap">
+    <wsdl:operation name="Timer_CheckTime">
+      <wsdl:input message="tns:Timer_CheckTimeSoapIn" />
+      <wsdl:output message="tns:Timer_CheckTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Timer_UpdateEndingSnipes">
+      <wsdl:input message="tns:Timer_UpdateEndingSnipesSoapIn" />
+      <wsdl:output message="tns:Timer_UpdateEndingSnipesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Timer_BidOptimizer_RefreshSnipes">
+      <wsdl:input message="tns:Timer_BidOptimizer_RefreshSnipesSoapIn" />
+      <wsdl:output message="tns:Timer_BidOptimizer_RefreshSnipesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Timer_Snipe_CheckSnipeValidity">
+      <wsdl:input message="tns:Timer_Snipe_CheckSnipeValiditySoapIn" />
+      <wsdl:output message="tns:Timer_Snipe_CheckSnipeValiditySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WService_SchedulerSoap" type="tns:WService_SchedulerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Timer_CheckTime">
+      <soap:operation soapAction="http://ultimatesniper.com/Timer_CheckTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Timer_UpdateEndingSnipes">
+      <soap:operation soapAction="http://ultimatesniper.com/Timer_UpdateEndingSnipes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Timer_BidOptimizer_RefreshSnipes">
+      <soap:operation soapAction="http://ultimatesniper.com/Timer_BidOptimizer_RefreshSnipes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Timer_Snipe_CheckSnipeValidity">
+      <soap:operation soapAction="http://ultimatesniper.com/Timer_Snipe_CheckSnipeValidity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WService_SchedulerSoap12" type="tns:WService_SchedulerSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Timer_CheckTime">
+      <soap12:operation soapAction="http://ultimatesniper.com/Timer_CheckTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Timer_UpdateEndingSnipes">
+      <soap12:operation soapAction="http://ultimatesniper.com/Timer_UpdateEndingSnipes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Timer_BidOptimizer_RefreshSnipes">
+      <soap12:operation soapAction="http://ultimatesniper.com/Timer_BidOptimizer_RefreshSnipes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Timer_Snipe_CheckSnipeValidity">
+      <soap12:operation soapAction="http://ultimatesniper.com/Timer_Snipe_CheckSnipeValidity" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WService_Scheduler">
+    <wsdl:port name="WService_SchedulerSoap" binding="tns:WService_SchedulerSoap">
+      <soap:address location="http://www.snipeagent.com/webservices/WService_Scheduler.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WService_SchedulerSoap12" binding="tns:WService_SchedulerSoap12">
+      <soap12:address location="http://www.snipeagent.com/webservices/WService_Scheduler.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

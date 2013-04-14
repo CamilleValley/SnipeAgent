@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <option value="-12.00" >Eniwetok, Kwajalein</option>
+  <option value="-11.00" >Midway Island, Samoa</option>
+  <option value="-10.00" >Hawaii</option>
+  <option value="-9.00" >Alaska</option>
+  <option value="-8.00" >Pacific Time (US &amp; Canada)</option>
+  <option value="-7.00" >Mountain Time (US &amp; Canada)</option>
+  <option value="-6.00" >Central Time (US &amp; Canada), Mexico City</option>
+  <option value="-5.00" >Eastern Time (US &amp; Canada), Bogota, Lima, Quito</option>
+  <option value="-4.00" >Atlantic Time (Canada), Caracas, La Paz</option>
+  <option value="-3.50" >Newfoundland</option>
+  <option value="-3.00" >Brazil, Buenos Aires, Georgetown</option>
+  <option value="-2.00" >Mid-Atlantic</option>
+  <option value="-1.00" >Azores, Cape Verde Islands</option>
+  <option value="0.00" >Western Europe Time, London, Lisbon, Casablanca, Monrovia</option>
+  <option value="1.00" >CET(Central Europe Time), Brussels, Copenhagen, Madrid, Paris</option>
+  <option value="2.00" >EET(Eastern Europe Time), Kaliningrad, South Africa</option>
+  <option value="3.00" >Baghdad, Kuwait, Riyadh, Moscow, St. Petersburg, Volgograd, Nairobi</option>
+  <option value="3.50" >Tehran</option>
+  <option value="4.00" >Abu Dhabi, Muscat, Baku, Tbilisi</option>
+  <option value="4.50" >Kabul</option>
+  <option value="5.00" >Ekaterinburg, Islamabad, Karachi, Tashkent</option>
+  <option value="5.50" >Bombay, Calcutta, Madras, New Delhi</option>
+  <option value="6.00" >Almaty, Dhaka, Colombo</option>
+  <option value="7.00" >Bangkok, Hanoi, Jakarta</option>
+  <option value="8.00" >Beijing, Perth, Singapore, Hong Kong, Chongqing, Urumqi, Taipei</option>
+  <option value="9.00" >Tokyo, Seoul, Osaka, Sapporo, Yakutsk</option>
+  <option value="9.50" >Adelaide, Darwin</option>
+  <option value="10.00" >EAST(East Australian Standard), Guam, Papua New Guinea, Vladivostok</option>
+  <option value="11.00" >Magadan, Solomon Islands, New Caledonia</option>
+  <option value="12.00" >Auckland, Wellington, Fiji, Kamchatka, Marshall Island</option>
+  <option value="13.00" >Nuku&quot;alofa</option>
+</root>

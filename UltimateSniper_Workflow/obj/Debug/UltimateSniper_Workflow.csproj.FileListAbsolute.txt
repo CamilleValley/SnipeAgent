@@ -1,0 +1,5 @@
+D:\UltimateSniper\UltimateSniper_Workflow\bin\Debug\UltimateSniper_Workflow.dll
+D:\UltimateSniper\UltimateSniper_Workflow\bin\Debug\UltimateSniper_Workflow.pdb
+D:\UltimateSniper\UltimateSniper_Workflow\obj\Debug\ResolveAssemblyReference.cache
+D:\UltimateSniper\UltimateSniper_Workflow\obj\Debug\UltimateSniper_Workflow.dll
+D:\UltimateSniper\UltimateSniper_Workflow\obj\Debug\UltimateSniper_Workflow.pdb

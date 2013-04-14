@@ -1,0 +1,4 @@
+2010-06-28 10:10:09,530 [28] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [SnipeUser] WHERE 1=1  AND UserName = 'ProdTest' AND UserPassword = 'ProdTest' AND UserActive = 1] - ExecuteReaderQuery
+2010-06-28 10:10:09,592 [28] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 3] - ExecuteReaderQuery
+2010-06-28 10:10:48,889 [16] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [SnipeUser] WHERE 1=1  AND UserName = 'ProdTest' AND UserPassword = 'ProdTest' AND UserActive = 1] - ExecuteReaderQuery
+2010-06-28 10:10:48,951 [16] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 3] - ExecuteReaderQuery

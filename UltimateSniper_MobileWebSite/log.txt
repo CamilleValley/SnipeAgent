@@ -1,0 +1,1108 @@
+2010-04-23 12:51:25,229 [16] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-04-23 12:52:05,932 [16] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-04-23 19:20:01,524 [17] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-04-23 19:20:39,789 [17] FATAL UltimateSniper_Logger.Logger [31] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:20:41,395 [17] FATAL UltimateSniper_Logger.Logger [33] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:20:43,767 [9] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-04-23 19:20:47,231 [17] FATAL UltimateSniper_Logger.Logger [34] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:20:48,191 [9] FATAL UltimateSniper_Logger.Logger [31] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:20:49,965 [17] FATAL UltimateSniper_Logger.Logger [35] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:20:51,404 [9] FATAL UltimateSniper_Logger.Logger [33] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:33,381 [17] FATAL UltimateSniper_Logger.Logger [37] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:34,000 [9] FATAL UltimateSniper_Logger.Logger [34] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:35,053 [17] FATAL UltimateSniper_Logger.Logger [40] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:35,411 [9] FATAL UltimateSniper_Logger.Logger [35] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:36,457 [17] FATAL UltimateSniper_Logger.Logger [41] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:36,961 [9] FATAL UltimateSniper_Logger.Logger [37] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:38,068 [17] FATAL UltimateSniper_Logger.Logger [2] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:38,496 [9] FATAL UltimateSniper_Logger.Logger [40] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:39,632 [17] FATAL UltimateSniper_Logger.Logger [12] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:39,948 [9] FATAL UltimateSniper_Logger.Logger [41] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:41,104 [17] FATAL UltimateSniper_Logger.Logger [14] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:41,453 [9] FATAL UltimateSniper_Logger.Logger [2] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:42,598 [17] FATAL UltimateSniper_Logger.Logger [18] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:42,896 [9] FATAL UltimateSniper_Logger.Logger [12] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:44,125 [17] FATAL UltimateSniper_Logger.Logger [25] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:44,463 [9] FATAL UltimateSniper_Logger.Logger [14] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:45,589 [17] FATAL UltimateSniper_Logger.Logger [42] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:45,923 [9] FATAL UltimateSniper_Logger.Logger [18] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:46,937 [17] FATAL UltimateSniper_Logger.Logger [43] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:47,313 [9] FATAL UltimateSniper_Logger.Logger [25] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:48,259 [17] FATAL UltimateSniper_Logger.Logger [44] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:48,800 [9] FATAL UltimateSniper_Logger.Logger [42] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:49,592 [17] FATAL UltimateSniper_Logger.Logger [52] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:50,212 [9] FATAL UltimateSniper_Logger.Logger [43] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:51,000 [17] FATAL UltimateSniper_Logger.Logger [53] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:51,001 [17] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-04-23 19:21:51,713 [9] FATAL UltimateSniper_Logger.Logger [44] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:53,852 [9] FATAL UltimateSniper_Logger.Logger [52] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:55,349 [9] FATAL UltimateSniper_Logger.Logger [53] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 495
+2010-04-23 19:21:55,350 [9] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-04-23 19:23:57,428 [16] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-04-23 19:24:10,952 [16] FATAL UltimateSniper_Logger.Logger [31] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:12,523 [16] FATAL UltimateSniper_Logger.Logger [33] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:14,285 [16] FATAL UltimateSniper_Logger.Logger [34] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:15,936 [16] FATAL UltimateSniper_Logger.Logger [35] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:18,360 [16] FATAL UltimateSniper_Logger.Logger [37] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:19,843 [16] FATAL UltimateSniper_Logger.Logger [40] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:21,372 [16] FATAL UltimateSniper_Logger.Logger [41] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:23,088 [16] FATAL UltimateSniper_Logger.Logger [2] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:24,999 [16] FATAL UltimateSniper_Logger.Logger [12] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:26,866 [16] FATAL UltimateSniper_Logger.Logger [14] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:28,261 [16] FATAL UltimateSniper_Logger.Logger [18] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:30,417 [16] FATAL UltimateSniper_Logger.Logger [25] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:31,921 [16] FATAL UltimateSniper_Logger.Logger [42] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:33,322 [16] FATAL UltimateSniper_Logger.Logger [43] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:34,966 [16] FATAL UltimateSniper_Logger.Logger [44] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:36,389 [16] FATAL UltimateSniper_Logger.Logger [52] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:37,753 [16] FATAL UltimateSniper_Logger.Logger [53] - Error__UpdateSnipeValidity
+System.Data.OleDb.OleDbException: Syntax error (missing operator) in query expression 'False ItemSellerID = '''.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteNonQuery(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 48
+   at UltimateSniper_DAL.SnipeDataMapper.Update[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 116
+   at UltimateSniper_DAL.BaseDataContext.Save[T](Object item, T type) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 43
+   at UltimateSniper_Services.ServiceOthers.CheckSnipeValidity(Snipe snipe) in D:\UltimateSniper\UltimateSniper_Services\ServiceOthers.cs:line 135
+   at UltimateSniper_ServiceLayer.SL_User.UpdateSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_User.cs:line 496
+2010-04-23 19:24:37,754 [16] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-04-23 19:56:48,924 [17] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 14:14:50,371 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'System.Web.UI.WebControls.TextBox' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 14:17:40,619 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'System.Web.UI.WebControls.TextBox' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 14:19:07,205 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 14:19:07,307 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:19:10,188 [6] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 14:19:10,277 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:19:10,317 [6] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-06-09 14:19:24,507 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:19:24,574 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:19:42,794 [7] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'fdsfdddd', CategoryActive = True, UserID = 1 WHERE CategoryID = 2;] - ExecuteNonReaderQuery
+2010-06-09 14:19:49,173 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:21:28,033 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:21:34,734 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:28:07,799 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 14:28:07,911 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:28:07,956 [7] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 14:28:08,011 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:28:08,052 [7] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-06-09 14:28:11,440 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:28:51,081 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:29:45,195 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:30:25,527 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:34:54,663 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 14:34:54,770 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:34:54,814 [7] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 14:34:54,873 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:34:54,914 [7] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-06-09 14:35:02,111 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:35:12,161 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:35:28,170 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:35:28,224 [6] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 14:35:29,804 [6] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 14:35:31,540 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1 AND ItemID = '110046250347'] - ExecuteReaderQuery
+2010-06-09 14:35:31,581 [6] INFO  UltimateSniper_Logger.Logger [SELECT MAX(SnipeID) + 1 as NewID FROM Snipe] - ExecuteReaderQuery
+2010-06-09 14:35:31,647 [6] INFO  UltimateSniper_Logger.Logger [INSERT INTO Snipe (SnipeId, SnipeName,SnipeBid,SnipeStatusID,SnipeDescription,SnipeDelay,SnipeTypeID,ItemID,ItemEndDate,UserID,SnipeBidCurrency, SnipeBidInFinalCurrency, SnipeFinalCurrency, ItemSellerID, SnipeGenNextSnipe, SnipeGenOriginalID, SnipeGenRemainingNb, SnipeGenIncreaseBid, ItemURL, ItemTitle, ItemPictureURL, ItemLastKnownPrice, ItemLastUpdate) VALUES(23, 'Testdsfddsf',100,1,'',7,1,'110046250347','09.06.2010 13:01:18',1,98,120.02,125,'apitest1', False, null, null, 0,'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250347&category=12','Test disputed item title','', 0, '09.06.2010 14:35:31');] - ExecuteNonReaderQuery
+2010-06-09 14:35:32,745 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:35:32,790 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:35:35,227 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:35:35,268 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:35:35,340 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 14:35:35,382 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:46:18,385 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 14:46:18,498 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:46:18,545 [7] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 14:46:18,623 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:46:18,673 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:46:18,750 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:46:18,817 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:46:18,861 [7] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 14:46:20,463 [7] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 14:46:21,089 [7] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testdsfddsf',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250347',ItemEndDate = '09.06.2010 13:01:18',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 12:46:21', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 120.02, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest1', SnipeGenNextSnipe = False, SnipeGenOriginalID = null, SnipeGenRemainingNb = null, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250347&category=12', ItemTitle = 'Test disputed item title', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 23;] - ExecuteNonReaderQuery
+2010-06-09 14:46:21,133 [7] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 23] - ExecuteNonReaderQuery
+2010-06-09 14:46:21,177 [7] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-06-09 14:46:24,183 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:46:24,224 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:48:43,939 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 14:48:44,077 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:48:44,125 [8] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 14:48:44,181 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:48:44,228 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:48:44,295 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:48:44,361 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 14:48:44,405 [8] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 14:48:46,020 [8] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 14:48:46,642 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testdsfddsf',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250347',ItemEndDate = '09.06.2010 13:01:18',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 12:48:46', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 120.02, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest1', SnipeGenNextSnipe = False, SnipeGenOriginalID = null, SnipeGenRemainingNb = null, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250347&category=12', ItemTitle = 'Test disputed item title', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 23;] - ExecuteNonReaderQuery
+2010-06-09 14:48:46,683 [8] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 23] - ExecuteNonReaderQuery
+2010-06-09 14:48:46,725 [8] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-06-09 14:48:47,330 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:48:47,371 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:48:48,501 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:48:48,542 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:48:48,611 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 14:48:48,651 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:49:01,684 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:49:01,726 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:49:01,799 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 14:49:01,842 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:49:01,907 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 10] - ExecuteReaderQuery
+2010-06-09 14:49:01,974 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 15] - ExecuteReaderQuery
+2010-06-09 14:49:02,017 [6] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 14:49:02,618 [6] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 14:49:03,709 [6] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testds',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = 'dddd',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250347',ItemEndDate = '09.06.2010 13:01:18',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 12:48:46', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest1', SnipeGenNextSnipe = False, SnipeGenOriginalID = null, SnipeGenRemainingNb = null, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250347&category=12', ItemTitle = 'Test disputed item title', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 23;] - ExecuteNonReaderQuery
+2010-06-09 14:49:03,750 [6] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 23] - ExecuteNonReaderQuery
+2010-06-09 14:49:03,816 [6] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 10;] - ExecuteNonReaderQuery
+2010-06-09 14:49:03,857 [6] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 10, true);] - ExecuteNonReaderQuery
+2010-06-09 14:49:03,921 [6] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 15;] - ExecuteNonReaderQuery
+2010-06-09 14:49:03,962 [6] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 15, true);] - ExecuteNonReaderQuery
+2010-06-09 14:49:07,182 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:49:07,224 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:49:07,288 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 14:49:07,329 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:49:56,417 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:49:56,458 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:49:56,533 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 14:49:56,575 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:50:02,909 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:50:02,951 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:50:14,387 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:50:14,428 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:50:16,106 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:50:16,148 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:50:34,154 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:50:34,195 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:51:05,797 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:51:05,837 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:51:16,128 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:51:16,171 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:51:28,439 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:51:28,486 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:51:29,861 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:51:29,904 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:51:29,973 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 14:51:30,015 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:52:14,277 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:52:14,319 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:52:14,383 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 14:52:14,424 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:52:14,491 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 10] - ExecuteReaderQuery
+2010-06-09 14:52:14,562 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 15] - ExecuteReaderQuery
+2010-06-09 14:52:17,682 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 14:52:17,724 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 14:52:17,798 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 14:52:17,841 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:23,941 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 15:01:24,048 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:01:24,093 [4] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 15:01:24,145 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:01:24,192 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:24,257 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:01:24,320 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:01:24,363 [4] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 15:01:25,993 [4] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 15:01:26,652 [4] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testds',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = 'dddd',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250347',ItemEndDate = '09.06.2010 13:01:18',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:01:26', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest1', SnipeGenNextSnipe = False, SnipeGenOriginalID = null, SnipeGenRemainingNb = null, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250347&category=12', ItemTitle = 'Test disputed item title', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 23;] - ExecuteNonReaderQuery
+2010-06-09 15:01:26,693 [4] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 23] - ExecuteNonReaderQuery
+2010-06-09 15:01:26,761 [4] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 10;] - ExecuteNonReaderQuery
+2010-06-09 15:01:26,801 [4] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 10, true);] - ExecuteNonReaderQuery
+2010-06-09 15:01:26,869 [4] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 15;] - ExecuteNonReaderQuery
+2010-06-09 15:01:26,907 [4] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 15, true);] - ExecuteNonReaderQuery
+2010-06-09 15:01:26,946 [4] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-06-09 15:01:27,316 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:01:27,358 [12] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:28,481 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:01:28,528 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:28,596 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 15:01:28,637 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:32,418 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:01:32,464 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:32,536 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 15:01:32,578 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:32,643 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 10] - ExecuteReaderQuery
+2010-06-09 15:01:32,710 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 15] - ExecuteReaderQuery
+2010-06-09 15:01:35,881 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:01:35,922 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:35,988 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 15:01:36,029 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:42,070 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:01:42,113 [12] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:42,181 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 15:01:42,222 [12] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:42,288 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 10] - ExecuteReaderQuery
+2010-06-09 15:01:42,360 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 15] - ExecuteReaderQuery
+2010-06-09 15:01:42,402 [12] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 15:01:43,003 [12] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 15:01:47,486 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:01:47,527 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:01:47,595 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 15:01:47,639 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:02:04,908 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:02:04,949 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:02:13,194 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:02:13,235 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:02:14,734 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:02:14,774 [12] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:02:14,843 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 15:02:14,885 [12] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:02:24,278 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:02:24,318 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:02:24,382 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 23] - ExecuteReaderQuery
+2010-06-09 15:02:24,423 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:02:24,493 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 10] - ExecuteReaderQuery
+2010-06-09 15:02:24,566 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 15] - ExecuteReaderQuery
+2010-06-09 15:02:24,605 [8] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 15:02:25,195 [8] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 15:02:28,795 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:02:28,837 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:02:36,601 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:02:36,644 [12] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:02:36,686 [12] INFO  UltimateSniper_Logger.Logger [110046250892] - Beginning__GetItemDetails
+2010-06-09 15:02:37,273 [12] INFO  UltimateSniper_Logger.Logger [110046250892] - Ending__GetItemDetails
+2010-06-09 15:02:38,917 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1 AND ItemID = '110046250892'] - ExecuteReaderQuery
+2010-06-09 15:02:38,959 [12] INFO  UltimateSniper_Logger.Logger [SELECT MAX(SnipeID) + 1 as NewID FROM Snipe] - ExecuteReaderQuery
+2010-06-09 15:02:39,021 [12] INFO  UltimateSniper_Logger.Logger [INSERT INTO Snipe (SnipeId, SnipeName,SnipeBid,SnipeStatusID,SnipeDescription,SnipeDelay,SnipeTypeID,ItemID,ItemEndDate,UserID,SnipeBidCurrency, SnipeBidInFinalCurrency, SnipeFinalCurrency, ItemSellerID, SnipeGenNextSnipe, SnipeGenOriginalID, SnipeGenRemainingNb, SnipeGenIncreaseBid, ItemURL, ItemTitle, ItemPictureURL, ItemLastKnownPrice, ItemLastUpdate) VALUES(24, 'Testdscc',100,1,'',7,1,'110046250892','09.06.2010 13:09:58',1,98,120.1,125,'apitest11', True, null, 5, 0,'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250892&category=2312','PDSanitySOAP Title test','', 0, '09.06.2010 15:02:39');] - ExecuteNonReaderQuery
+2010-06-09 15:02:40,134 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:02:40,176 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:02:40,217 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:04:55,755 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 15:04:55,872 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:04:55,915 [5] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 15:04:55,966 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:04:56,012 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:04:56,053 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:04:56,122 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:04:56,187 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:04:56,231 [5] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 15:04:57,874 [5] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 15:04:58,515 [5] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testds',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = 'dddd',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250347',ItemEndDate = '09.06.2010 13:01:18',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:04:58', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest1', SnipeGenNextSnipe = False, SnipeGenOriginalID = null, SnipeGenRemainingNb = null, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250347&category=12', ItemTitle = 'Test disputed item title', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 23;] - ExecuteNonReaderQuery
+2010-06-09 15:04:58,556 [5] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 23] - ExecuteNonReaderQuery
+2010-06-09 15:04:58,625 [5] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 10;] - ExecuteNonReaderQuery
+2010-06-09 15:04:58,664 [5] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 10, true);] - ExecuteNonReaderQuery
+2010-06-09 15:04:58,732 [5] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 15;] - ExecuteNonReaderQuery
+2010-06-09 15:04:58,772 [5] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 15, true);] - ExecuteNonReaderQuery
+2010-06-09 15:04:58,840 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:04:58,857 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:04:58,911 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:04:58,925 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:04:58,938 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:04:58,942 [5] INFO  UltimateSniper_Logger.Logger [110046250892] - Beginning__GetItemDetails
+2010-06-09 15:04:59,541 [5] INFO  UltimateSniper_Logger.Logger [110046250892] - Ending__GetItemDetails
+2010-06-09 15:05:00,097 [5] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testdscc',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250892',ItemEndDate = '09.06.2010 13:09:58',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:05:00', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 120.1, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest11', SnipeGenNextSnipe = True, SnipeGenOriginalID = null, SnipeGenRemainingNb = 5, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250892&category=2312', ItemTitle = 'PDSanitySOAP Title test', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 24;] - ExecuteNonReaderQuery
+2010-06-09 15:05:00,138 [5] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 24] - ExecuteNonReaderQuery
+2010-06-09 15:05:00,176 [5] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-06-09 15:05:00,767 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:05:00,808 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:05:00,847 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:05:00,928 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 24] - ExecuteReaderQuery
+2010-06-09 15:05:00,970 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:05:04,388 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:05:04,430 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:05:04,471 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:05:04,546 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 24] - ExecuteReaderQuery
+2010-06-09 15:05:04,587 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:05:04,631 [7] INFO  UltimateSniper_Logger.Logger [110046250892] - Beginning__GetItemDetails
+2010-06-09 15:05:05,235 [7] INFO  UltimateSniper_Logger.Logger [110046250892] - Ending__GetItemDetails
+2010-06-09 15:05:06,297 [7] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testdscc',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250892',ItemEndDate = '09.06.2010 13:09:58',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:05:00', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest11', SnipeGenNextSnipe = True, SnipeGenOriginalID = null, SnipeGenRemainingNb = 5, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250892&category=2312', ItemTitle = 'PDSanitySOAP Title test', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 24;] - ExecuteNonReaderQuery
+2010-06-09 15:05:06,338 [7] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 24] - ExecuteNonReaderQuery
+2010-06-09 15:08:33,391 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 15:08:33,501 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:08:33,544 [7] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 15:08:33,596 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:08:33,643 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:08:33,683 [7] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:08:33,756 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:08:33,824 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:08:33,867 [7] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 15:08:35,508 [7] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 15:08:36,185 [7] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testds',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = 'dddd',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250347',ItemEndDate = '09.06.2010 13:01:18',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:08:36', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest1', SnipeGenNextSnipe = False, SnipeGenOriginalID = null, SnipeGenRemainingNb = null, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250347&category=12', ItemTitle = 'Test disputed item title', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 23;] - ExecuteNonReaderQuery
+2010-06-09 15:08:36,227 [7] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 23] - ExecuteNonReaderQuery
+2010-06-09 15:08:36,301 [7] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 10;] - ExecuteNonReaderQuery
+2010-06-09 15:08:36,340 [7] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 10, true);] - ExecuteNonReaderQuery
+2010-06-09 15:08:36,405 [7] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 15;] - ExecuteNonReaderQuery
+2010-06-09 15:08:36,438 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:08:36,446 [7] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 15, true);] - ExecuteNonReaderQuery
+2010-06-09 15:08:36,533 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:08:36,539 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:08:36,586 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:08:36,593 [7] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:08:36,630 [7] INFO  UltimateSniper_Logger.Logger [110046250892] - Beginning__GetItemDetails
+2010-06-09 15:08:37,209 [7] INFO  UltimateSniper_Logger.Logger [110046250892] - Ending__GetItemDetails
+2010-06-09 15:08:37,762 [7] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testdscc',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250892',ItemEndDate = '09.06.2010 13:09:58',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:08:37', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest11', SnipeGenNextSnipe = True, SnipeGenOriginalID = null, SnipeGenRemainingNb = 5, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250892&category=2312', ItemTitle = 'PDSanitySOAP Title test', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 24;] - ExecuteNonReaderQuery
+2010-06-09 15:08:37,803 [7] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 24] - ExecuteNonReaderQuery
+2010-06-09 15:08:37,842 [7] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-06-09 15:08:38,227 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:08:38,267 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:08:38,308 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:08:38,375 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 24] - ExecuteReaderQuery
+2010-06-09 15:08:38,414 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:08:41,181 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:08:41,224 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:08:41,265 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:08:41,332 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 24] - ExecuteReaderQuery
+2010-06-09 15:08:41,373 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:08:41,418 [6] INFO  UltimateSniper_Logger.Logger [110046250892] - Beginning__GetItemDetails
+2010-06-09 15:08:41,999 [6] INFO  UltimateSniper_Logger.Logger [110046250892] - Ending__GetItemDetails
+2010-06-09 15:08:43,038 [6] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testdscc',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250892',ItemEndDate = '09.06.2010 13:09:58',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:08:37', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest11', SnipeGenNextSnipe = True, SnipeGenOriginalID = null, SnipeGenRemainingNb = 5, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250892&category=2312', ItemTitle = 'PDSanitySOAP Title test', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 24;] - ExecuteNonReaderQuery
+2010-06-09 15:08:43,088 [6] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 24] - ExecuteNonReaderQuery
+2010-06-09 15:09:00,544 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:09:00,585 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:09:00,626 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:09:10,116 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:09:10,158 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:09:10,198 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:09:10,244 [5] INFO  UltimateSniper_Logger.Logger [110046251282] - Beginning__GetItemDetails
+2010-06-09 15:09:10,827 [5] INFO  UltimateSniper_Logger.Logger [110046251282] - Ending__GetItemDetails
+2010-06-09 15:09:12,447 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1 AND ItemID = '110046251282'] - ExecuteReaderQuery
+2010-06-09 15:09:12,488 [5] INFO  UltimateSniper_Logger.Logger [SELECT MAX(SnipeID) + 1 as NewID FROM Snipe] - ExecuteReaderQuery
+2010-06-09 15:09:12,550 [5] INFO  UltimateSniper_Logger.Logger [INSERT INTO Snipe (SnipeId, SnipeName,SnipeBid,SnipeStatusID,SnipeDescription,SnipeDelay,SnipeTypeID,ItemID,ItemEndDate,UserID,SnipeBidCurrency, SnipeBidInFinalCurrency, SnipeFinalCurrency, ItemSellerID, SnipeGenNextSnipe, SnipeGenOriginalID, SnipeGenRemainingNb, SnipeGenIncreaseBid, ItemURL, ItemTitle, ItemPictureURL, ItemLastKnownPrice, ItemLastUpdate) VALUES(25, 'dddd',423,1,'',7,1,'110046251282','09.06.2010 13:19:51',1,98,508.45,125,'apitest11', True, null, 5, 0,'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046251282&category=2312','PDSanitySOAP Title test','', 0, '09.06.2010 15:09:12');] - ExecuteNonReaderQuery
+2010-06-09 15:09:13,645 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:09:13,687 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:09:13,729 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:09:13,771 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:18,088 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 15:12:18,189 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:18,234 [8] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 15:12:18,288 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:18,334 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:18,376 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:18,417 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:18,492 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:18,562 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:18,606 [8] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 15:12:20,194 [8] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 15:12:20,855 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testds',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = 'dddd',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250347',ItemEndDate = '09.06.2010 13:01:18',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:12:20', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest1', SnipeGenNextSnipe = False, SnipeGenOriginalID = null, SnipeGenRemainingNb = null, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250347&category=12', ItemTitle = 'Test disputed item title', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 23;] - ExecuteNonReaderQuery
+2010-06-09 15:12:20,898 [8] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 23] - ExecuteNonReaderQuery
+2010-06-09 15:12:20,976 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 10;] - ExecuteNonReaderQuery
+2010-06-09 15:12:21,016 [8] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 10, true);] - ExecuteNonReaderQuery
+2010-06-09 15:12:21,080 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 15;] - ExecuteNonReaderQuery
+2010-06-09 15:12:21,119 [8] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 15, true);] - ExecuteNonReaderQuery
+2010-06-09 15:12:21,183 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:21,240 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:21,257 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:21,283 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:21,296 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:21,297 [8] INFO  UltimateSniper_Logger.Logger [110046250892] - Beginning__GetItemDetails
+2010-06-09 15:12:21,331 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:21,958 [8] INFO  UltimateSniper_Logger.Logger [110046250892] - Ending__GetItemDetails
+2010-06-09 15:12:22,513 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testdscc',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250892',ItemEndDate = '09.06.2010 13:09:58',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:12:22', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest11', SnipeGenNextSnipe = True, SnipeGenOriginalID = null, SnipeGenRemainingNb = 5, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250892&category=2312', ItemTitle = 'PDSanitySOAP Title test', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 24;] - ExecuteNonReaderQuery
+2010-06-09 15:12:22,555 [8] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 24] - ExecuteNonReaderQuery
+2010-06-09 15:12:22,619 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:22,685 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:22,727 [8] INFO  UltimateSniper_Logger.Logger [110046251282] - Beginning__GetItemDetails
+2010-06-09 15:12:23,313 [8] INFO  UltimateSniper_Logger.Logger [110046251282] - Ending__GetItemDetails
+2010-06-09 15:12:23,543 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:23,587 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:23,627 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:23,672 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:23,741 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 25] - ExecuteReaderQuery
+2010-06-09 15:12:23,783 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:23,864 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'dddd',SnipeBid = 423,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046251282',ItemEndDate = '09.06.2010 13:19:51',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:12:23', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 508.45, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest11', SnipeGenNextSnipe = True, SnipeGenOriginalID = null, SnipeGenRemainingNb = 5, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046251282&category=2312', ItemTitle = 'PDSanitySOAP Title test', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 25;] - ExecuteNonReaderQuery
+2010-06-09 15:12:23,905 [8] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 25] - ExecuteNonReaderQuery
+2010-06-09 15:12:23,946 [8] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-06-09 15:12:28,491 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:28,532 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:28,574 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:28,614 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:32,144 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:32,184 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:32,225 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:32,266 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:33,370 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:33,413 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:33,453 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:33,493 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:35,926 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:35,969 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:36,011 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:36,053 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:36,129 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 25] - ExecuteReaderQuery
+2010-06-09 15:12:36,176 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:41,029 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:41,076 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:41,115 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:41,157 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:41,232 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND SnipeID = 25] - ExecuteReaderQuery
+2010-06-09 15:12:41,276 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:41,347 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 2] - ExecuteReaderQuery
+2010-06-09 15:12:41,413 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 3] - ExecuteReaderQuery
+2010-06-09 15:12:41,484 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND CategoryID = 5] - ExecuteReaderQuery
+2010-06-09 15:12:41,528 [4] INFO  UltimateSniper_Logger.Logger [110046251282] - Beginning__GetItemDetails
+2010-06-09 15:12:42,135 [4] INFO  UltimateSniper_Logger.Logger [110046251282] - Ending__GetItemDetails
+2010-06-09 15:12:43,171 [4] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'dddd',SnipeBid = 423,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046251282',ItemEndDate = '09.06.2010 13:19:51',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:12:23', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 423, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest11', SnipeGenNextSnipe = True, SnipeGenOriginalID = null, SnipeGenRemainingNb = 5, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046251282&category=2312', ItemTitle = 'PDSanitySOAP Title test', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 25;] - ExecuteNonReaderQuery
+2010-06-09 15:12:43,212 [4] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 25] - ExecuteNonReaderQuery
+2010-06-09 15:12:43,276 [4] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'fdsfdddd', CategoryActive = True, UserID = 1 WHERE CategoryID = 2;] - ExecuteNonReaderQuery
+2010-06-09 15:12:43,315 [4] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (25, 2, true);] - ExecuteNonReaderQuery
+2010-06-09 15:12:43,378 [4] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category', CategoryActive = True, UserID = 1 WHERE CategoryID = 3;] - ExecuteNonReaderQuery
+2010-06-09 15:12:43,418 [4] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (25, 3, true);] - ExecuteNonReaderQuery
+2010-06-09 15:12:43,485 [4] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'Test', CategoryActive = True, UserID = 1 WHERE CategoryID = 5;] - ExecuteNonReaderQuery
+2010-06-09 15:12:43,528 [4] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (25, 5, true);] - ExecuteNonReaderQuery
+2010-06-09 15:12:46,727 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:46,768 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:46,810 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:46,850 [6] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:55,499 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:55,539 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:55,580 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:55,620 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:12:56,720 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:12:56,766 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:12:56,806 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:12:56,847 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:13:12,533 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:13:12,574 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:13:12,614 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:13:12,658 [5] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:13:25,382 [6] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryActive = False, CategoryDisactivationDate = '09.06.2010 13:13:25' WHERE CategoryID = 23;] - ExecuteNonReaderQuery
+2010-06-09 15:13:34,567 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:13:34,632 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:14:37,159 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = '' AND UserPassword = '' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 15:14:38,738 [6] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = '' AND UserPassword = '' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 15:14:54,107 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = true] - ExecuteReaderQuery
+2010-06-09 15:14:54,172 [5] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:14:54,212 [8] INFO  UltimateSniper_Logger.Logger [] - Beginning__UpdateSnipeValidity
+2010-06-09 15:14:54,265 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:14:54,313 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:14:54,352 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:14:54,394 [8] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:14:54,463 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:14:54,535 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:14:54,577 [8] INFO  UltimateSniper_Logger.Logger [110046250347] - Beginning__GetItemDetails
+2010-06-09 15:14:55,786 [8] INFO  UltimateSniper_Logger.Logger [110046250347] - Ending__GetItemDetails
+2010-06-09 15:14:56,415 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testds',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = 'dddd',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250347',ItemEndDate = '09.06.2010 13:01:18',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:14:56', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest1', SnipeGenNextSnipe = False, SnipeGenOriginalID = null, SnipeGenRemainingNb = null, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250347&category=12', ItemTitle = 'Test disputed item title', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 23;] - ExecuteNonReaderQuery
+2010-06-09 15:14:56,458 [8] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 23] - ExecuteNonReaderQuery
+2010-06-09 15:14:56,524 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 10;] - ExecuteNonReaderQuery
+2010-06-09 15:14:56,565 [8] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 10, true);] - ExecuteNonReaderQuery
+2010-06-09 15:14:56,630 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category 2', CategoryActive = True, UserID = 1 WHERE CategoryID = 15;] - ExecuteNonReaderQuery
+2010-06-09 15:14:56,669 [8] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (23, 15, true);] - ExecuteNonReaderQuery
+2010-06-09 15:14:56,736 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:14:56,811 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:14:56,852 [8] INFO  UltimateSniper_Logger.Logger [110046250892] - Beginning__GetItemDetails
+2010-06-09 15:14:57,474 [8] INFO  UltimateSniper_Logger.Logger [110046250892] - Ending__GetItemDetails
+2010-06-09 15:14:58,039 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'Testdscc',SnipeBid = 100,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046250892',ItemEndDate = '09.06.2010 13:09:58',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:14:58', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 100, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest11', SnipeGenNextSnipe = True, SnipeGenOriginalID = null, SnipeGenRemainingNb = 5, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046250892&category=2312', ItemTitle = 'PDSanitySOAP Title test', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 24;] - ExecuteNonReaderQuery
+2010-06-09 15:14:58,080 [8] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 24] - ExecuteNonReaderQuery
+2010-06-09 15:14:58,148 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [User] WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:14:58,213 [8] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-09 15:14:58,253 [8] INFO  UltimateSniper_Logger.Logger [110046251282] - Beginning__GetItemDetails
+2010-06-09 15:14:58,863 [8] INFO  UltimateSniper_Logger.Logger [110046251282] - Ending__GetItemDetails
+2010-06-09 15:14:59,412 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Snipe SET SnipeName = 'dddd',SnipeBid = 423,SnipeStatusID = 1,SnipeDescription = '',SnipeDelay = 7,SnipeTypeID = 1,ItemID = '110046251282',ItemEndDate = '09.06.2010 13:19:51',UserID = 1, SnipeErrorReason = '', ItemLastUpdate = '09.06.2010 13:14:59', SnipeExecutionDate = null, SnipeBidCurrency = 98, SnipeBidInFinalCurrency = 423, SnipeFinalCurrency = 125, SnipeInProgress = False, ItemSellerID = 'apitest11', SnipeGenNextSnipe = True, SnipeGenOriginalID = null, SnipeGenRemainingNb = 5, SnipeGenIncreaseBid = 0, ItemURL = 'http://cgi.sandbox.ebay.de/ws/eBayISAPI.dll?ViewItem&item=110046251282&category=2312', ItemTitle = 'PDSanitySOAP Title test', ItemPictureURL = '',  ItemLastKnownPrice = 0.83 WHERE SnipeID = 25;] - ExecuteNonReaderQuery
+2010-06-09 15:14:59,457 [8] INFO  UltimateSniper_Logger.Logger [DELETE * FROM SnipeCategory WHERE SnipeID = 25] - ExecuteNonReaderQuery
+2010-06-09 15:14:59,528 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'fdsfdddd', CategoryActive = True, UserID = 1 WHERE CategoryID = 2;] - ExecuteNonReaderQuery
+2010-06-09 15:14:59,566 [8] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (25, 2, true);] - ExecuteNonReaderQuery
+2010-06-09 15:14:59,635 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'New category', CategoryActive = True, UserID = 1 WHERE CategoryID = 3;] - ExecuteNonReaderQuery
+2010-06-09 15:14:59,675 [8] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (25, 3, true);] - ExecuteNonReaderQuery
+2010-06-09 15:14:59,749 [8] INFO  UltimateSniper_Logger.Logger [UPDATE Category SET CategoryName = 'Test', CategoryActive = True, UserID = 1 WHERE CategoryID = 5;] - ExecuteNonReaderQuery
+2010-06-09 15:14:59,804 [8] INFO  UltimateSniper_Logger.Logger [INSERT INTO SnipeCategory (SnipeID, CategoryID, SnipeCategoryActive) VALUES (25, 5, true);] - ExecuteNonReaderQuery
+2010-06-09 15:14:59,851 [8] INFO  UltimateSniper_Logger.Logger [] - Ending__UpdateSnipeValidity
+2010-06-09 15:15:05,295 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:15:05,335 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:15:05,376 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:15:05,416 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:15:27,901 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:15:27,946 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:15:27,988 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:15:28,034 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-09 15:15:44,918 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 1] - ExecuteReaderQuery
+2010-06-09 15:15:44,959 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-09 15:15:45,001 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-09 15:15:45,041 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = True AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UltimateSniper_BusinessObjects">
+</Property><Property Name="Solution File" Value="D:\UltimateSniper\UltimateSniper_BusinessObjects\UltimateSniper_BusinessObjects.sln">
+</Property><Property Name="Date" Value="Mittwoch, 14. Dezember 2011">
+</Property><Property Name="Time" Value="15:09">
+</Property></Properties><Event ErrorLevel="0" Project="UltimateSniper_BO" Source="UltimateSniper_BO.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_BO" Source="UltimateSniper_BO.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_DAL" Source="..\UltimateSniper_DAL\UltimateSniper_DAL.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_DAL" Source="..\UltimateSniper_DAL\UltimateSniper_DAL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_Services" Source="..\UltimateSniper_Services\UltimateSniper_Services.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_Services" Source="..\UltimateSniper_Services\UltimateSniper_Services.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="uTesting_UltimateSniper_DAL" Source="..\uTesting_UltimateSniper_DAL\uTesting_UltimateSniper_DAL.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="uTesting_UltimateSniper_DAL" Source="..\uTesting_UltimateSniper_DAL\uTesting_UltimateSniper_DAL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="uTesting_UltimateSniper_Services" Source="uTesting_UltimateSniper_Services\uTesting_UltimateSniper_Services.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="uTesting_UltimateSniper_Services" Source="uTesting_UltimateSniper_Services\uTesting_UltimateSniper_Services.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_ServiceLayer" Source="..\UltimateSniper_ServiceLayer\UltimateSniper_ServiceLayer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_ServiceLayer" Source="..\UltimateSniper_ServiceLayer\UltimateSniper_ServiceLayer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_SchedulerUI" Source="..\ULtimateSniper_SchedulerUI\UltimateSniper_SchedulerUI.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_SchedulerUI" Source="..\ULtimateSniper_SchedulerUI\UltimateSniper_SchedulerUI.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_WebService" Source="..\UltimateSniper_WebService\UltimateSniper_WebService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_WebService" Source="..\UltimateSniper_WebService\UltimateSniper_WebService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="uTesting_UltimateSniper_SL_User" Source="uTesting_UltimateSniper_SL_User\uTesting_UltimateSniper_SL_User.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="uTesting_UltimateSniper_SL_User" Source="uTesting_UltimateSniper_SL_User\uTesting_UltimateSniper_SL_User.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_WebSite" Source="..\UltimateSniper_WebSite\UltimateSniper_WebSite.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_WebSite" Source="..\UltimateSniper_WebSite\UltimateSniper_WebSite.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_Presentation" Source="..\UltimateSniper_Presentation\UltimateSniper_Presentation.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_Presentation" Source="..\UltimateSniper_Presentation\UltimateSniper_Presentation.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_MobileWebSite" Source="..\UltimateSniper_MobileWebSite\UltimateSniper_MobileWebSite.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_MobileWebSite" Source="..\UltimateSniper_MobileWebSite\UltimateSniper_MobileWebSite.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_Logger" Source="..\UltimateSniper_Logger\UltimateSniper_Logger.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_Logger" Source="..\UltimateSniper_Logger\UltimateSniper_Logger.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_SchedulerEngine" Source="..\UltimateSniper_SchedulerEngine\UltimateSniper_SchedulerEngine.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_SchedulerEngine" Source="..\UltimateSniper_SchedulerEngine\UltimateSniper_SchedulerEngine.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="uTesting_UltimateSniper_SL_Scheduler" Source="uTesting_UltimateSniper_SL_Scheduler\uTesting_UltimateSniper_SL_Scheduler.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="uTesting_UltimateSniper_SL_Scheduler" Source="uTesting_UltimateSniper_SL_Scheduler\uTesting_UltimateSniper_SL_Scheduler.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_SSLPages" Source="..\UltimateSniper_SSLPages\UltimateSniper_SSLPages.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UltimateSniper_SSLPages" Source="..\UltimateSniper_SSLPages\UltimateSniper_SSLPages.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="uTesting_Scheduler_Engine" Source="uTesting_Scheduler_Engine\uTesting_Scheduler_Engine.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="uTesting_Scheduler_Engine" Source="uTesting_Scheduler_Engine\uTesting_Scheduler_Engine.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_BO" Source="UltimateSniper_BO.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_DAL" Source="..\UltimateSniper_DAL\UltimateSniper_DAL.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_Services" Source="..\UltimateSniper_Services\UltimateSniper_Services.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects1.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects1.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects10.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects10.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects11.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects11.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects12.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects12.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects13.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects13.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects14.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects14.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects15.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects15.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects16.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects16.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects17.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects17.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects2.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects2.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects3.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects3.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects4.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects4.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects5.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects5.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects6.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects6.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects7.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects7.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects8.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects8.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="UltimateSniper_BusinessObjects9.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UltimateSniper_BusinessObjects9.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="uTesting_UltimateSniper_DAL" Source="..\uTesting_UltimateSniper_DAL\uTesting_UltimateSniper_DAL.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="uTesting_UltimateSniper_Services" Source="uTesting_UltimateSniper_Services\uTesting_UltimateSniper_Services.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_ServiceLayer" Source="..\UltimateSniper_ServiceLayer\UltimateSniper_ServiceLayer.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_SchedulerUI" Source="..\ULtimateSniper_SchedulerUI\UltimateSniper_SchedulerUI.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_WebService" Source="..\UltimateSniper_WebService\UltimateSniper_WebService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="uTesting_UltimateSniper_SL_User" Source="uTesting_UltimateSniper_SL_User\uTesting_UltimateSniper_SL_User.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_WebSite" Source="..\UltimateSniper_WebSite\UltimateSniper_WebSite.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_Presentation" Source="..\UltimateSniper_Presentation\UltimateSniper_Presentation.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_MobileWebSite" Source="..\UltimateSniper_MobileWebSite\UltimateSniper_MobileWebSite.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_Logger" Source="..\UltimateSniper_Logger\UltimateSniper_Logger.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_SchedulerEngine" Source="..\UltimateSniper_SchedulerEngine\UltimateSniper_SchedulerEngine.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="uTesting_UltimateSniper_SL_Scheduler" Source="uTesting_UltimateSniper_SL_Scheduler\uTesting_UltimateSniper_SL_Scheduler.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UltimateSniper_SSLPages" Source="..\UltimateSniper_SSLPages\UltimateSniper_SSLPages.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="uTesting_Scheduler_Engine" Source="uTesting_Scheduler_Engine\uTesting_Scheduler_Engine.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,412 @@
+﻿.DivLanguage
+{
+	position:relative; 
+	top: 51px; 
+	left: 410px;
+	width: 50px;
+}
+
+.DivFeatureOption 
+{
+	background-image: url(../Images/features_optionbackground.gif);
+    background-repeat:no-repeat;
+    position: relative; 
+	float: left;
+	height: 430px;
+	width:46%;
+	border : solid 1px #D1D1D1;
+	margin : 15px 10px;
+}
+
+.DivAboutUs 
+{
+    position: relative; 
+	float: left;
+	width:42%;
+	border : solid 1px #D1D1D1;
+	margin : 15px 0 0 20px;
+	padding-right: 15px; 
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 250px;
+}
+
+.DivUserDetails
+{
+	background-image: url(../Images/account_background.gif);
+    background-repeat:no-repeat;
+    position: relative; 
+	float: left;
+	width:42%;
+	border : solid 1px #D1D1D1;
+	margin : 15px 10px;
+	height: 500px;
+	padding-right: 15px; 
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+.DivFeatureFree
+{
+	background-image: url(../Images/features_freebackground.gif);
+    background-repeat:no-repeat;
+    position: relative; 
+	float: left;
+	height: 430px;
+	width:46%;
+	border : solid 1px #D1D1D1;
+	margin : 15px 10px;
+}
+.DivHomePoint
+{
+	 height:60px; 
+	 width:500px;
+	 background-repeat:no-repeat;
+	 padding-top: 90px; 
+	 padding-right: 80px; 
+	 padding-left: 140px;
+}
+
+.DivActive
+{
+	width:97%;
+	height:85%;
+	padding: 10px;
+	overflow-y:auto;
+	background-color: White;
+}
+
+.DivMain
+{
+	width:1026px; 
+	background-color: #f7f7f7;
+	text-align:left;
+}
+
+.DivMiddle
+{
+	width: 100%; 
+	position:relative;
+	padding-left:15px;
+	margin-bottom: 64%;
+	margin-top: 10px;
+}
+
+body 
+{ 
+	background-image: url(../Images/background.gif);
+	background-repeat:repeat;
+    font-family : Tahoma;        /* nom de la police */
+    font-size : 10pt;           /* taille des caractères */
+}
+
+div.Title 
+{
+	background-image: url(../Images/body_title.gif);
+    color : White;
+    font-family : Arial;        /* nom de la police */
+    font-size : 14pt;           /* taille des caractères */
+    margin : 0px 0px 0px 0px;
+    vertical-align:middle;
+    height: 44px;
+    padding: 1% 0% 0% 2%;
+}
+
+.select
+{
+    width : 305px;
+}
+
+/***************************** MENU *****************************/
+
+.DivMenuItem
+{
+	position: relative; 
+	float: left; 
+    background-image : url(../Images/menu_item.gif);
+    background-repeat : repeat-x;
+    width: 114px; 
+	height: 60px;
+	text-align:center;
+	padding-top: 10px;
+}
+
+.DivMenuItem A:link {color:Black; font-size: 15px; text-decoration: none; text-transform: uppercase; font-family: Miriam;}
+.DivMenuItem A:visited {color:Black; font-size: 15px; text-decoration: none; text-transform: uppercase; font-family: Miriam;}
+.DivMenuItem A:active {color:Black; font-size: 15px; text-decoration: none; text-transform: uppercase; font-family: Miriam;}
+.DivMenuItem A:hover {color:Black; font-size: 15px; font-weight:bold; text-transform: uppercase; font-family: Miriam;}
+
+.DivMenuItemLast
+{
+	position: relative; 
+	float: left; 
+    background-image : url(../Images/menu_item.gif);
+    background-repeat : repeat-x;
+    width: 4%; 
+	height: 70px;
+}
+
+.DivMenuItemMiddle
+{
+	vertical-align:text-top;
+	position: relative; 
+	background-repeat : no-repeat;
+	float: left; 
+    background-image : url(../Images/menu_middle.gif);
+    width: 6%; 
+	height: 70px;
+}
+
+.DivLoginForm
+{
+	position: relative; 
+	float: left; 
+	vertical-align:text-top;
+	background-image : url(../Images/menu_logingbackground.gif);
+    background-repeat : repeat-x;
+	height: 70px;
+	width:34%;
+}
+
+.DivSubMenu
+{
+	float: none; 
+	position:relative;
+	width: 100%;
+	height:45px;  
+}
+
+.DivSubMenuFirst
+{
+	position: relative; 
+	float: left; 
+	background-image : url(/Medias/Images/submenu_first.gif); 
+	width:46px; 
+	height:45px; 
+}
+
+.DivSubMenuMiddle
+{
+	position: relative; 
+	float: left; 
+	background-image : url(/Medias/Images/submenu_middle.gif); 
+	width:120px; 
+	height:36px; 
+	padding-top: 12px;
+}
+
+.DivSubMenuLast
+{
+	position: relative; 
+	float: left; 
+	background-image : url(/Medias/Images/submenu_last.gif); 
+	width:500px; 
+	height:35px; 
+	padding-top: 10px;
+	text-align:center;
+}
+
+.DivSubMenuMiddle A:link {color:Black; text-decoration: none; text-transform: capitalize; font-family: Miriam;}
+.DivSubMenuMiddle A:visited {color:Black; text-decoration: none; text-transform: capitalize; font-family: Miriam;}
+.DivSubMenuMiddle A:active {color:Black; text-decoration: none; text-transform: capitalize; font-family: Miriam;}
+.DivSubMenuMiddle A:hover {color:Black; font-weight:bold; text-transform: capitalize; font-family: Miriam;}
+
+.DivMenuFirstLine
+{
+	clear: both;
+	height: 70px;
+	float: none; 
+	width: 100%;
+	position:relative;
+}
+
+div.MainMenu input.BoutonStandard
+{
+    color : Gray;
+    background-color : #EBEADB;
+    border : solid 2px #D6D2C2;
+}
+
+/***************************** END MENU *****************************/
+
+/***************************** AD *****************************/
+
+.DivAd
+{
+	float: left;
+	position : relative;
+    height : 590px;
+    z-index : 1;                   /* Définit l’ordre d’affichage sur l’axe Z */     
+    background-color : White;      /* Définit la couleur de fond d’écran */
+    border : solid 1px #D1D1D1;    /* Définit la bordure de la zone */
+    margin : 0px auto;             /* Définit la marge extérieure */
+	width: 180px;
+	padding: 20px 20px 20px 20px;
+}
+
+/***************************** END AD *****************************/
+
+/***************************** COMMENTS *****************************/
+
+.DivComments
+{
+	position : relative;
+    width : 93%;
+    vertical-align:middle;
+    background-color: White;
+    padding: 20px 10px 20px 10px;
+    border : solid 1px #D1D1D1;   
+    left:10px;
+    margin-bottom: 10px;
+}
+
+/***************************** END COMMENTS *****************************/
+
+/***************************** MAIN WINDOW *****************************/
+
+.DivContent
+{
+	position: relative; 
+	float: left;
+    width : 750px;
+    border : solid 1px #D1D1D1;   
+    margin : 0px 10px;
+    height : 630px;
+    z-index : 1;                   /* Définit l’ordre d’affichage sur l’axe Z */
+}
+
+div.DivMain input.BoutonStandard
+{
+    color : Gray;
+    background-color : #EBEADB;
+    border : solid 2px #D6D2C2;
+    width : 90px;
+}
+
+div.DivMain input.TextBoxStandard
+{
+    color : Gray;
+    background-color : #EBEADB;
+    border : solid 2px #D6D2C2;
+    width : 150px;
+}
+
+/***************************** END MAIN WINDOW *****************************/
+
+/***************************** ANGLES *****************************/
+
+div.CoinHautGauche,
+div.CoinHautDroit,
+div.CoinBasGauche,
+div.CoinBasDroit
+{
+    position : absolute;
+    height : 20px;                 /* Définit la hauteur de la zone en pixel */
+    width : 20px;                  /* Définit la largeur de la zone en pixel */
+    z-index : 2;                   /* Définit l’ordre d’affichage sur l’axe z */
+    background-image : url(../Images/coin.gif);
+    background-repeat : no-repeat;
+}
+
+div.CoinHautGauche
+{
+    background-position : top left;
+    left : -1px;
+    top : -1px;
+}
+
+div.CoinHautDroit
+{
+    background-position : top right;
+    right : -1px;
+    top : -1px;
+}
+
+div.CoinBasGauche
+{
+    background-position : bottom left;
+    left : -1px;
+    bottom : -1px;
+}
+
+div.CoinBasDroit
+{
+    background-position : bottom right;
+    right : -1px;
+    bottom : -1px;
+}
+
+div.Interface 
+{
+    position : relative;
+    height : 600px;                /* Définit la hauteur de la zone en pixel */
+    width : 1000px;                /* Définit la largeur de la zone en pixel */
+
+}
+
+/***************************** END ANGLES *****************************/
+
+/***************************** DATAGRID *****************************/
+
+table.DataGridsStandard
+{
+    font-family : Arial;
+    font-size : 10pt;
+    width : 90%;
+    padding : 0px 0px 0px 0px;
+    margin : 10px 10px 0px 10px;
+}
+
+table.DataGridsStandard tr.ResumeSelectionne td a,
+table.DataGridsStandard tr.ResumeSelectionne td a:link,
+table.DataGridsStandard tr.ResumeSelectionne td a:visited,
+table.DataGridsStandard tr.ResumeSelectionne td a:active,
+table.DataGridsStandard td a:hover
+{
+    background-color : #D9E6E1;
+    border : solid 1px #316AC5;
+}
+
+table.DataGridsStandard td a
+{
+    background-color : #B2D0C4;
+    border : solid 1px #316AC5;
+}
+
+table.DataGridsStandard td a,
+table.DataGridsStandard td a:link,
+table.DataGridsStandard td a:visited,
+table.DataGridsStandard td a:active
+{
+    color : Black;
+    text-decoration : none;
+    display : block;
+    width : 70px;
+}
+
+/***************************** END DATAGRID *****************************/
+
+.lblItemTitle
+{
+	text-align: left;
+    color : Black;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.TDSnipeDetails
+{
+	width: 55%; 
+	text-align:right; 
+	padding-right: 20px;
+}
+
+.TDSnipeDetailsInfo
+{
+	width: 45%; 
+	text-align:left; 
+	font-family : Tahoma;        /* nom de la police */
+    font-size : 10pt;           /* taille des caractères */
+}

@@ -1,0 +1,196 @@
+2010-06-28 15:29:57,448 [10] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [SnipeUser] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = 1] - ExecuteReaderQuery
+2010-06-28 15:29:58,660 [10] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-28 15:30:05,997 [11] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_Beginning
+2010-06-28 15:30:07,984 [11] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND ItemEndDate > #5/28/2010 13:30:6#] - ExecuteReaderQuery
+2010-06-28 15:30:08,169 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 6;] - ExecuteReaderQuery
+2010-06-28 15:30:08,287 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 7;] - ExecuteReaderQuery
+2010-06-28 15:30:08,355 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 8;] - ExecuteReaderQuery
+2010-06-28 15:30:08,424 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 9;] - ExecuteReaderQuery
+2010-06-28 15:30:08,490 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 10;] - ExecuteReaderQuery
+2010-06-28 15:30:08,556 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 11;] - ExecuteReaderQuery
+2010-06-28 15:30:08,629 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 12;] - ExecuteReaderQuery
+2010-06-28 15:30:08,695 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 13;] - ExecuteReaderQuery
+2010-06-28 15:30:08,761 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 14;] - ExecuteReaderQuery
+2010-06-28 15:30:08,823 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 15;] - ExecuteReaderQuery
+2010-06-28 15:30:08,885 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 16;] - ExecuteReaderQuery
+2010-06-28 15:30:08,946 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 17;] - ExecuteReaderQuery
+2010-06-28 15:30:09,012 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 18;] - ExecuteReaderQuery
+2010-06-28 15:30:09,080 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 19;] - ExecuteReaderQuery
+2010-06-28 15:30:09,146 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 20;] - ExecuteReaderQuery
+2010-06-28 15:30:09,208 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 21;] - ExecuteReaderQuery
+2010-06-28 15:30:09,272 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 22;] - ExecuteReaderQuery
+2010-06-28 15:30:09,338 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-28 15:30:09,403 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-28 15:30:09,476 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-28 15:30:09,553 [11] INFO  UltimateSniper_Logger.Logger [6] - BindSnipe
+2010-06-28 15:30:13,926 [11] INFO  UltimateSniper_Logger.Logger [7] - BindSnipe
+2010-06-28 15:30:13,935 [11] INFO  UltimateSniper_Logger.Logger [8] - BindSnipe
+2010-06-28 15:30:13,938 [11] INFO  UltimateSniper_Logger.Logger [9] - BindSnipe
+2010-06-28 15:30:13,941 [11] INFO  UltimateSniper_Logger.Logger [10] - BindSnipe
+2010-06-28 15:30:13,944 [11] INFO  UltimateSniper_Logger.Logger [11] - BindSnipe
+2010-06-28 15:30:13,949 [11] INFO  UltimateSniper_Logger.Logger [12] - BindSnipe
+2010-06-28 15:30:13,952 [11] INFO  UltimateSniper_Logger.Logger [13] - BindSnipe
+2010-06-28 15:30:13,955 [11] INFO  UltimateSniper_Logger.Logger [14] - BindSnipe
+2010-06-28 15:30:13,959 [11] INFO  UltimateSniper_Logger.Logger [15] - BindSnipe
+2010-06-28 15:30:13,962 [11] INFO  UltimateSniper_Logger.Logger [16] - BindSnipe
+2010-06-28 15:30:13,964 [11] INFO  UltimateSniper_Logger.Logger [17] - BindSnipe
+2010-06-28 15:30:13,968 [11] INFO  UltimateSniper_Logger.Logger [18] - BindSnipe
+2010-06-28 15:30:13,970 [11] INFO  UltimateSniper_Logger.Logger [19] - BindSnipe
+2010-06-28 15:30:13,973 [11] INFO  UltimateSniper_Logger.Logger [20] - BindSnipe
+2010-06-28 15:30:13,976 [11] INFO  UltimateSniper_Logger.Logger [21] - BindSnipe
+2010-06-28 15:30:13,979 [11] INFO  UltimateSniper_Logger.Logger [22] - BindSnipe
+2010-06-28 15:30:13,982 [11] INFO  UltimateSniper_Logger.Logger [23] - BindSnipe
+2010-06-28 15:30:14,564 [11] INFO  UltimateSniper_Logger.Logger [24] - BindSnipe
+2010-06-28 15:30:15,152 [11] INFO  UltimateSniper_Logger.Logger [25] - BindSnipe
+2010-06-28 15:30:15,754 [11] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_End
+2010-06-28 15:30:33,968 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [SnipeUser] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = 1] - ExecuteReaderQuery
+2010-06-28 15:30:34,047 [12] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-28 15:30:39,864 [14] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_Beginning
+2010-06-28 15:30:40,445 [14] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND ItemEndDate > #5/28/2010 13:30:39#] - ExecuteReaderQuery
+2010-06-28 15:30:40,524 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 6;] - ExecuteReaderQuery
+2010-06-28 15:30:40,602 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 7;] - ExecuteReaderQuery
+2010-06-28 15:30:40,683 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 8;] - ExecuteReaderQuery
+2010-06-28 15:30:40,761 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 9;] - ExecuteReaderQuery
+2010-06-28 15:30:40,839 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 10;] - ExecuteReaderQuery
+2010-06-28 15:30:40,915 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 11;] - ExecuteReaderQuery
+2010-06-28 15:30:40,980 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 12;] - ExecuteReaderQuery
+2010-06-28 15:30:41,043 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 13;] - ExecuteReaderQuery
+2010-06-28 15:30:41,108 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 14;] - ExecuteReaderQuery
+2010-06-28 15:30:41,172 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 15;] - ExecuteReaderQuery
+2010-06-28 15:30:41,236 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 16;] - ExecuteReaderQuery
+2010-06-28 15:30:41,311 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 17;] - ExecuteReaderQuery
+2010-06-28 15:30:41,391 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 18;] - ExecuteReaderQuery
+2010-06-28 15:30:41,466 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 19;] - ExecuteReaderQuery
+2010-06-28 15:30:41,538 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 20;] - ExecuteReaderQuery
+2010-06-28 15:30:41,620 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 21;] - ExecuteReaderQuery
+2010-06-28 15:30:41,698 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 22;] - ExecuteReaderQuery
+2010-06-28 15:30:41,776 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-28 15:30:41,842 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-28 15:30:41,911 [14] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-28 15:30:41,951 [14] INFO  UltimateSniper_Logger.Logger [6] - BindSnipe
+2010-06-28 15:30:41,955 [14] INFO  UltimateSniper_Logger.Logger [7] - BindSnipe
+2010-06-28 15:30:41,959 [14] INFO  UltimateSniper_Logger.Logger [8] - BindSnipe
+2010-06-28 15:30:41,962 [14] INFO  UltimateSniper_Logger.Logger [9] - BindSnipe
+2010-06-28 15:30:41,965 [14] INFO  UltimateSniper_Logger.Logger [10] - BindSnipe
+2010-06-28 15:30:41,969 [14] INFO  UltimateSniper_Logger.Logger [11] - BindSnipe
+2010-06-28 15:30:41,972 [14] INFO  UltimateSniper_Logger.Logger [12] - BindSnipe
+2010-06-28 15:30:41,975 [14] INFO  UltimateSniper_Logger.Logger [13] - BindSnipe
+2010-06-28 15:30:41,979 [14] INFO  UltimateSniper_Logger.Logger [14] - BindSnipe
+2010-06-28 15:30:41,981 [14] INFO  UltimateSniper_Logger.Logger [15] - BindSnipe
+2010-06-28 15:30:41,984 [14] INFO  UltimateSniper_Logger.Logger [16] - BindSnipe
+2010-06-28 15:30:41,990 [14] INFO  UltimateSniper_Logger.Logger [17] - BindSnipe
+2010-06-28 15:30:41,994 [14] INFO  UltimateSniper_Logger.Logger [18] - BindSnipe
+2010-06-28 15:30:41,996 [14] INFO  UltimateSniper_Logger.Logger [19] - BindSnipe
+2010-06-28 15:30:41,999 [14] INFO  UltimateSniper_Logger.Logger [20] - BindSnipe
+2010-06-28 15:30:42,001 [14] INFO  UltimateSniper_Logger.Logger [21] - BindSnipe
+2010-06-28 15:30:42,004 [14] INFO  UltimateSniper_Logger.Logger [22] - BindSnipe
+2010-06-28 15:30:42,006 [14] INFO  UltimateSniper_Logger.Logger [23] - BindSnipe
+2010-06-28 15:30:42,561 [14] INFO  UltimateSniper_Logger.Logger [24] - BindSnipe
+2010-06-28 15:30:43,099 [14] INFO  UltimateSniper_Logger.Logger [25] - BindSnipe
+2010-06-28 15:30:43,680 [14] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_End
+2010-06-28 15:30:49,998 [11] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_Beginning
+2010-06-28 15:30:50,650 [11] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND ItemEndDate > #5/28/2010 13:30:49#] - ExecuteReaderQuery
+2010-06-28 15:30:50,733 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 6;] - ExecuteReaderQuery
+2010-06-28 15:30:50,809 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 7;] - ExecuteReaderQuery
+2010-06-28 15:30:50,875 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 8;] - ExecuteReaderQuery
+2010-06-28 15:30:50,939 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 9;] - ExecuteReaderQuery
+2010-06-28 15:30:51,002 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 10;] - ExecuteReaderQuery
+2010-06-28 15:30:51,067 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 11;] - ExecuteReaderQuery
+2010-06-28 15:30:51,128 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 12;] - ExecuteReaderQuery
+2010-06-28 15:30:51,193 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 13;] - ExecuteReaderQuery
+2010-06-28 15:30:51,263 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 14;] - ExecuteReaderQuery
+2010-06-28 15:30:51,329 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 15;] - ExecuteReaderQuery
+2010-06-28 15:30:51,394 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 16;] - ExecuteReaderQuery
+2010-06-28 15:30:51,462 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 17;] - ExecuteReaderQuery
+2010-06-28 15:30:51,526 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 18;] - ExecuteReaderQuery
+2010-06-28 15:30:51,594 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 19;] - ExecuteReaderQuery
+2010-06-28 15:30:51,659 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 20;] - ExecuteReaderQuery
+2010-06-28 15:30:51,725 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 21;] - ExecuteReaderQuery
+2010-06-28 15:30:51,794 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 22;] - ExecuteReaderQuery
+2010-06-28 15:30:51,872 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-28 15:30:51,936 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-28 15:30:52,003 [11] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-28 15:30:52,043 [11] INFO  UltimateSniper_Logger.Logger [6] - BindSnipe
+2010-06-28 15:30:52,047 [11] INFO  UltimateSniper_Logger.Logger [7] - BindSnipe
+2010-06-28 15:30:52,049 [11] INFO  UltimateSniper_Logger.Logger [8] - BindSnipe
+2010-06-28 15:30:52,052 [11] INFO  UltimateSniper_Logger.Logger [9] - BindSnipe
+2010-06-28 15:30:52,055 [11] INFO  UltimateSniper_Logger.Logger [10] - BindSnipe
+2010-06-28 15:30:52,058 [11] INFO  UltimateSniper_Logger.Logger [11] - BindSnipe
+2010-06-28 15:30:52,061 [11] INFO  UltimateSniper_Logger.Logger [12] - BindSnipe
+2010-06-28 15:30:52,064 [11] INFO  UltimateSniper_Logger.Logger [13] - BindSnipe
+2010-06-28 15:30:52,067 [11] INFO  UltimateSniper_Logger.Logger [14] - BindSnipe
+2010-06-28 15:30:52,069 [11] INFO  UltimateSniper_Logger.Logger [15] - BindSnipe
+2010-06-28 15:30:52,072 [11] INFO  UltimateSniper_Logger.Logger [16] - BindSnipe
+2010-06-28 15:30:52,075 [11] INFO  UltimateSniper_Logger.Logger [17] - BindSnipe
+2010-06-28 15:30:52,078 [11] INFO  UltimateSniper_Logger.Logger [18] - BindSnipe
+2010-06-28 15:30:52,081 [11] INFO  UltimateSniper_Logger.Logger [19] - BindSnipe
+2010-06-28 15:30:52,084 [11] INFO  UltimateSniper_Logger.Logger [20] - BindSnipe
+2010-06-28 15:30:52,088 [11] INFO  UltimateSniper_Logger.Logger [21] - BindSnipe
+2010-06-28 15:30:52,091 [11] INFO  UltimateSniper_Logger.Logger [22] - BindSnipe
+2010-06-28 15:30:52,095 [11] INFO  UltimateSniper_Logger.Logger [23] - BindSnipe
+2010-06-28 15:30:52,694 [11] INFO  UltimateSniper_Logger.Logger [24] - BindSnipe
+2010-06-28 15:30:53,265 [11] INFO  UltimateSniper_Logger.Logger [25] - BindSnipe
+2010-06-28 15:30:53,924 [11] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_End
+2010-06-28 15:33:34,203 [10] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_Beginning
+2010-06-28 15:33:34,263 [10] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 4] - ExecuteReaderQuery
+2010-06-28 15:33:34,340 [10] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 3;] - ExecuteReaderQuery
+2010-06-28 15:33:34,385 [10] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 21;] - ExecuteReaderQuery
+2010-06-28 15:33:34,427 [10] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 22;] - ExecuteReaderQuery
+2010-06-28 15:33:34,470 [10] INFO  UltimateSniper_Logger.Logger [3] - BindSnipe
+2010-06-28 15:33:34,477 [10] INFO  UltimateSniper_Logger.Logger [21] - BindSnipe
+2010-06-28 15:33:34,482 [10] INFO  UltimateSniper_Logger.Logger [22] - BindSnipe
+2010-06-28 15:33:34,487 [10] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_End
+2010-06-28 15:49:51,696 [11] INFO  UltimateSniper_Logger.Logger [SELECT * FROM [SnipeUser] WHERE 1=1  AND UserName = 'Test' AND UserPassword = 'Test' AND UserActive = 1] - ExecuteReaderQuery
+2010-06-28 15:49:51,806 [11] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Category WHERE 1=1  AND UserID = 1] - ExecuteReaderQuery
+2010-06-28 15:49:58,856 [4] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_Beginning
+2010-06-28 15:50:00,322 [4] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND ItemEndDate > #5/28/2010 13:50:0#] - ExecuteReaderQuery
+2010-06-28 15:50:00,397 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 6;] - ExecuteReaderQuery
+2010-06-28 15:50:00,463 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 7;] - ExecuteReaderQuery
+2010-06-28 15:50:00,530 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 8;] - ExecuteReaderQuery
+2010-06-28 15:50:00,594 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 9;] - ExecuteReaderQuery
+2010-06-28 15:50:00,660 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 10;] - ExecuteReaderQuery
+2010-06-28 15:50:00,722 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 11;] - ExecuteReaderQuery
+2010-06-28 15:50:00,797 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 12;] - ExecuteReaderQuery
+2010-06-28 15:50:00,881 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 13;] - ExecuteReaderQuery
+2010-06-28 15:50:00,963 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 14;] - ExecuteReaderQuery
+2010-06-28 15:50:01,043 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 15;] - ExecuteReaderQuery
+2010-06-28 15:50:01,122 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 16;] - ExecuteReaderQuery
+2010-06-28 15:50:01,185 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 17;] - ExecuteReaderQuery
+2010-06-28 15:50:01,257 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 18;] - ExecuteReaderQuery
+2010-06-28 15:50:01,336 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 19;] - ExecuteReaderQuery
+2010-06-28 15:50:01,412 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 20;] - ExecuteReaderQuery
+2010-06-28 15:50:01,476 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 21;] - ExecuteReaderQuery
+2010-06-28 15:50:01,542 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 22;] - ExecuteReaderQuery
+2010-06-28 15:50:01,614 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 23;] - ExecuteReaderQuery
+2010-06-28 15:50:01,690 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 24;] - ExecuteReaderQuery
+2010-06-28 15:50:01,765 [4] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 25;] - ExecuteReaderQuery
+2010-06-28 15:50:01,807 [4] INFO  UltimateSniper_Logger.Logger [6] - BindSnipe
+2010-06-28 15:50:01,825 [4] INFO  UltimateSniper_Logger.Logger [7] - BindSnipe
+2010-06-28 15:50:01,828 [4] INFO  UltimateSniper_Logger.Logger [8] - BindSnipe
+2010-06-28 15:50:01,831 [4] INFO  UltimateSniper_Logger.Logger [9] - BindSnipe
+2010-06-28 15:50:01,835 [4] INFO  UltimateSniper_Logger.Logger [10] - BindSnipe
+2010-06-28 15:50:01,841 [4] INFO  UltimateSniper_Logger.Logger [11] - BindSnipe
+2010-06-28 15:50:01,845 [4] INFO  UltimateSniper_Logger.Logger [12] - BindSnipe
+2010-06-28 15:50:01,847 [4] INFO  UltimateSniper_Logger.Logger [13] - BindSnipe
+2010-06-28 15:50:01,850 [4] INFO  UltimateSniper_Logger.Logger [14] - BindSnipe
+2010-06-28 15:50:01,854 [4] INFO  UltimateSniper_Logger.Logger [15] - BindSnipe
+2010-06-28 15:50:01,857 [4] INFO  UltimateSniper_Logger.Logger [16] - BindSnipe
+2010-06-28 15:50:01,860 [4] INFO  UltimateSniper_Logger.Logger [17] - BindSnipe
+2010-06-28 15:50:01,862 [4] INFO  UltimateSniper_Logger.Logger [18] - BindSnipe
+2010-06-28 15:50:01,865 [4] INFO  UltimateSniper_Logger.Logger [19] - BindSnipe
+2010-06-28 15:50:01,868 [4] INFO  UltimateSniper_Logger.Logger [20] - BindSnipe
+2010-06-28 15:50:01,871 [4] INFO  UltimateSniper_Logger.Logger [21] - BindSnipe
+2010-06-28 15:50:01,873 [4] INFO  UltimateSniper_Logger.Logger [22] - BindSnipe
+2010-06-28 15:50:01,876 [4] INFO  UltimateSniper_Logger.Logger [23] - BindSnipe
+2010-06-28 15:50:02,410 [4] INFO  UltimateSniper_Logger.Logger [24] - BindSnipe
+2010-06-28 15:50:02,943 [4] INFO  UltimateSniper_Logger.Logger [25] - BindSnipe
+2010-06-28 15:50:03,478 [4] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_End
+2010-06-28 15:51:11,045 [13] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_Beginning
+2010-06-28 15:52:20,474 [13] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND UserID = 1 AND SnipeStatusID = 4] - ExecuteReaderQuery
+2010-06-28 15:52:20,519 [13] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 3;] - ExecuteReaderQuery
+2010-06-28 15:52:20,561 [13] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 21;] - ExecuteReaderQuery
+2010-06-28 15:52:20,603 [13] INFO  UltimateSniper_Logger.Logger [SELECT c.CategoryID, c.CategoryName, c.CategoryActive, c.CategoryDisactivationDate, c.UserID FROM SnipeCategory sc, Category c WHERE sc.SnipeCategoryActive = 1 AND sc.CategoryID = c.CategoryID AND sc.SnipeID = 22;] - ExecuteReaderQuery
+2010-06-28 15:52:20,646 [13] INFO  UltimateSniper_Logger.Logger [3] - BindSnipe
+2010-06-28 15:52:20,649 [13] INFO  UltimateSniper_Logger.Logger [21] - BindSnipe
+2010-06-28 15:52:20,652 [13] INFO  UltimateSniper_Logger.Logger [22] - BindSnipe
+2010-06-28 15:52:20,656 [13] INFO  UltimateSniper_Logger.Logger [] - RefreshSnipeList_End

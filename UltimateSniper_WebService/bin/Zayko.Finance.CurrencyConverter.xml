@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Zayko.Finance.CurrencyConverter</name>
+  </assembly>
+  <members>
+    <member name="T:Zayko.Finance.Currency">
+      <summary>Basic class, contains Currency code and Description This class cannot be inherited.</summary>
+    </member>
+    <member name="P:Zayko.Finance.Currency.Code">
+      <summary>Three-chars Currency code, for example: "USD"</summary>
+    </member>
+    <member name="P:Zayko.Finance.Currency.Description">
+      <summary>Currency Description, for example: "U.S. Dollar"</summary>
+    </member>
+    <member name="M:Zayko.Finance.Currency.Equals(System.Object)">
+      <summary>Checks equality of objects</summary>
+      <param name="obj">Currency object for comparison</param>
+      <returns>true if objects are identical; false if otherwise</returns>
+    </member>
+    <member name="M:Zayko.Finance.Currency.GetHashCode">
+      <summary>Returns object's Hash code</summary>
+      <returns>Object's Hash code</returns>
+    </member>
+    <member name="M:Zayko.Finance.Currency.ToString">
+      <summary>Returns string representation of the object</summary>
+      <returns>A string contains Currency Code and Name</returns>
+    </member>
+    <member name="M:Zayko.Finance.Currency.op_Equality(Zayko.Finance.Currency,Zayko.Finance.Currency)">
+      <summary>Checks equality of two Currency objects</summary>
+      <param name="leftCurrency">Left Currency object for comparison</param>
+      <param name="rightCurrency">Right Currency object for comparison</param>
+      <returns>true if both Currency objects have same currency Code; false if otherwise</returns>
+    </member>
+    <member name="M:Zayko.Finance.Currency.op_Inequality(Zayko.Finance.Currency,Zayko.Finance.Currency)">
+      <summary>Checks equality of two Currency objects</summary>
+      <param name="leftCurrency">Left Currency object for comparison</param>
+      <param name="rightCurrency">Right Currency object for comparison</param>
+      <returns>true if currency Codes are different; false if otherwise</returns>
+    </member>
+    <member name="T:Zayko.Finance.CurrencyConverter">
+      <summary>Connect to Web service and get currency exchange rates This class cannot be inherited.</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyConverter.AdjustToLocalTime">
+      <summary>Set to true if you want to convert Trade Date/Time to your local value</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyConverter.Proxy">
+      <summary>Gets or Sets Web Proxy settings</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyConverter.ReadWriteTimeout">
+      <summary>Gets or sets a time-out when writing to or reading from a stream. Default - 30 sec.</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyConverter.Timeout">
+      <summary>Gets or sets the time-out value for the GetResponse and GetRequestStream methods. Default - 30 sec.</summary>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyConverter.GetCurrencyData(System.Collections.Generic.ICollection{Zayko.Finance.CurrencyData}@)">
+      <summary>Receive Currency data form multi currencies stored in ICollection</summary>
+      <param name="listData">List of Currencies to get</param>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyConverter.GetCurrencyData(Zayko.Finance.CurrencyData@)">
+      <summary>Receive current Currency data by specified CurrencyData param</summary>
+      <param name="data">Reference to a CurrencyData class containing the Currency codes</param>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyConverter.GetCurrencyData(System.String,System.String)">
+      <summary>Return CurrencyData by suplied Currency codes</summary>
+      <param name="source">Three-chars Currency code</param>
+      <param name="target">Three-chars Currency code</param>
+      <returns>CurrencyData class contains exchange rate information</returns>
+    </member>
+    <member name="T:Zayko.Finance.CurrencyList">
+      <summary>Base class contains list of supported currencies This class cannot be inherited.</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyList.Codes">
+      <summary>Returns list of supported Currency Codes</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyList.Count">
+      <summary>Return number of supported Currencies</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyList.Descriptions">
+      <summary>Returns list of supported Currency Names</summary>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyList.GetAt(System.Int32)">
+      <summary>Returns a Currency object by its number</summary>
+      <param name="index">Currency number to get</param>
+      <returns>Currency object</returns>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyList.GetCode(System.Int32)">
+      <summary>Returns Currency code by its number</summary>
+      <param name="index">Number to get</param>
+      <returns>Tree-chars currency code</returns>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyList.GetCode(System.String)">
+      <summary>Returns currency Code by its Name</summary>
+      <param name="description">A Currency Name</param>
+      <returns>Tree-chars currency code</returns>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyList.GetCodeIndex(System.String)">
+      <summary>Returns Currency index by its Code</summary>
+      <param name="code">Tree-chars currency code</param>
+      <returns>Position in the list</returns>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyList.GetDescription(System.Int32)">
+      <summary>Returns Currency Name by its position in the list</summary>
+      <param name="index">Position in the list</param>
+      <returns>A Currency Name</returns>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyList.GetDescription(System.String)">
+      <summary>Returns Currency Name by its code</summary>
+      <param name="code">Three-chars Currency Code</param>
+      <returns>A Currency Name</returns>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyList.GetDescriptionIndex(System.String)">
+      <summary>Returns Currency position in the list by its Name</summary>
+      <param name="description">A Currency Name</param>
+      <returns>Currency position</returns>
+    </member>
+    <member name="T:Zayko.Finance.CurrencyData">
+      <summary>Static Class contains currency codes and names</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyData.BaseCode">
+      <summary>Three-chars Currency code to convert from</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyData.Max">
+      <summary>Maximal Ask price</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyData.Min">
+      <summary>Minimal Bid price</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyData.Rate">
+      <summary>Current Exchange rate</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyData.TargetCode">
+      <summary>Three-chars Currency code to conver to</summary>
+    </member>
+    <member name="P:Zayko.Finance.CurrencyData.TradeDate">
+      <summary>Last Trade Date/Time</summary>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyData.Equals(System.Object)">
+      <summary>Compare two CurrencyData object for equality</summary>
+      <param name="obj">An Object to compare with the current</param>
+      <returns>true if equal; false if otherwise</returns>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyData.GetHashCode">
+      <summary>Return Hash code for the object</summary>
+      <returns>Object's Hash code</returns>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyData.ToString">
+      <summary>Gets string representation of the object</summary>
+      <returns>string contains Base code, Target code, current Price, Trade date and Bid and Ask values</returns>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyData.op_Equality(Zayko.Finance.CurrencyData,Zayko.Finance.CurrencyData)">
+      <summary>Compare two CurrencyData objects. Static method.</summary>
+      <param name="leftCurrencyData">Left-side CurrencyData object to compare</param>
+      <param name="rightCurrencyData">Right-side CurrencyData object to compare</param>
+      <returns>true if these objects ARE equal, false if otherwise</returns>
+    </member>
+    <member name="M:Zayko.Finance.CurrencyData.op_Inequality(Zayko.Finance.CurrencyData,Zayko.Finance.CurrencyData)">
+      <summary>Compare two CurrencyData objects. Static method.</summary>
+      <param name="leftCurrencyData">Left-side CurrencyData object to compare</param>
+      <param name="rightCurrencyData">Right-side CurrencyData object to compare</param>
+      <returns>true if these objects are NOT equal, false if otherwise</returns>
+    </member>
+  </members>
+</doc>

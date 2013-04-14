@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UltimateSniper_WebSite.Site" %>
+<%@ Register src="../UserControls/UCComments.ascx" tagname="Comments" tagprefix="uc1" %>
+<%@ Register src="../UserControls/UCMenu.ascx" tagname="Menu" tagprefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Snipe Agent</title>
+    <link href="../Medias/Css/Default.css" rel="stylesheet" type="text/css" />
+    
+     <script type="text/javascript">
+     function GetLocalTimeOffset()
+     {
+       var rightNow = new Date();
+       var date1 = new Date(rightNow.getFullYear(), 0, 1, 0, 0, 0, 0);
+     
+       var temp = date1.toGMTString();
+       var date2 = new Date(temp.substring(0, temp.lastIndexOf(" ")-1));
+      
+       var hoursDiffStdTime = (date1 - date2) / (1000 * 60 * 60);
+        
+        createCookie("hoursDiffStdTime", hoursDiffStdTime, 0); 
+
+     }
+     
+     function createCookie(name,value,days) {
+	    if (days && days > 0) {
+		    var date = new Date();
+		    date.setTime(date.getTime()+(days*24*60*60*1000));
+		    var expires = "; expires="+date.toGMTString();
+	    }
+	    else var expires = "";
+	    document.cookie = name+"="+value+expires+"; path=/";
+    }
+    </script>
+
+    <style type="text/css">
+        .style1
+        {
+            width: 861px;
+        }
+    </style>
+
+</head>
+<body onload="GetLocalTimeOffset();">
+    <form id="MainForm" runat="server">
+        <center>
+        <div id="DivMain" class="DivMain">
+            <div style="width: 100%; height:142px;" id="DivTop">
+                <div style="position: relative; float: left;" id="DivLogo"><a href="http://www.snipeagent.com"><img alt="SnipeAgent.com" src="Medias/Images/logo.gif" border="0" /></a></div>
+                <div style="position: relative; float: left; background-image: url('Medias/Images/banner.gif'); width:618px; height:142px;" id="DivBandeau">
+                    <div id="DivLanguage" class="DivLanguage">
+                    <asp:DropDownList ID="DropDownListLanguages" runat="server" onselectedindexchanged="DropDownListLanguages_SelectedIndexChanged" AutoPostBack="True"></asp:DropDownList>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%;" id="DivMenu">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderMenu" runat="server">
+                <uc2:Menu ID="Menu" runat="server" />
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="DivMiddle" class="DivMiddle">
+                
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderComments" runat="server">
+                <uc1:Comments ID="CommentsMain" runat="server"/>
+                </asp:ContentPlaceHolder>
+                
+                <div id="DivContent" class="DivContent">
+                    <div class="CoinBasGauche"></div>
+                    <div class="CoinBasDroit"></div>
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolderMainData" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="DivAd" class="DivAd">
+                    <div class="CoinHautGauche"></div>
+                    <div class="CoinHautDroit"></div>
+                    <div class="CoinBasGauche"></div>
+                    <div class="CoinBasDroit"></div>
+
+                    <center>    
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolderAd" runat="server">
+                        <script type="text/javascript"><!--
+                        google_ad_client = "pub-7428898758510443";
+                        /* 160x600, date de création 21/06/10 */
+                        google_ad_slot = "8339950314";
+                        google_ad_width = 180;
+                        google_ad_height = 600;
+                        //-->
+                        </script>
+                        <script type="text/javascript"
+                        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                        </script>
+                    </asp:ContentPlaceHolder>
+                    </center>
+                </div>
+            </div>
+            <table width="100%">
+            <tr>
+                <td>
+                <div style="background-color: #647070; height:1px;"></div>
+                <div style="background-color: #c6dbdc; height:10px;"></div>
+                <div style="background-color: #f7f7f7; height:60px;">
+                    <div style="position: relative; float: left; background-image: url(../Medias/Images/logo_bottom.gif); background-repeat: no-repeat; height:40px; width:160px; padding-top:35px; padding-left:25px">Design by MoChokla</div>
+                    <div style="position: relative; float: right; height:40px; width:120px; padding-top:5px;">
+                        <img src="../Medias/Images/logo_compapp_intro.gif" /></div>
+                </div>
+                </td>
+            </tr>
+            </table>
+        </div>
+        </center>
+    </form>
+</body>
+</html>

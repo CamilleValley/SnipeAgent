@@ -1,0 +1,32 @@
+2010-06-28 13:44:48,814 [19] INFO  UltimateSniper_Logger.Logger [] - Beginning__Timer_CheckSnipeValidity
+2010-06-28 13:44:49,656 [19] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND ItemLastUpdate < #DateParse#6/27/2010 5:46:09 PM#EndDateParse# AND SnipeStatusID = 1 AND ValidityCheckInProgress = 0] - TEST
+2010-06-28 13:44:49,656 [19] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe WHERE 1=1  AND ItemLastUpdate < #6/27/2010 17:46:9# AND SnipeStatusID = 1 AND ValidityCheckInProgress = 0] - ExecuteReaderQuery
+2010-06-28 13:44:49,656 [19] ERROR UltimateSniper_Logger.Logger [(null)] - Error__Timer_CheckSnipeValidity
+System.InvalidOperationException: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine.
+   at System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteReader(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 75
+   at UltimateSniper_DAL.SnipeDataMapper.GetByCriteria(Query q) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 241
+   at UltimateSniper_DAL.BaseDataContext.GetByCriteria[T](Query query) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 58
+   at UltimateSniper_ServiceLayer.SL_Scheduler.Timer_CheckSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_Scheduler.cs:line 333
+2010-06-28 13:44:49,672 [19] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe INNER JOIN [SnipeUser] ON Snipe.UserID = User.UserID WHERE (((User.UserOptionsEndDate)> ##DateNow##) AND ((Snipe.[ItemEndDate])<#DateParse#6/27/2010 5:46:09 PM#EndDateParse#) AND ((Snipe.[SnipeStatusID])=1) AND ((Snipe.[ValidityCheckInProgress])=0));] - TEST
+2010-06-28 13:44:49,672 [19] INFO  UltimateSniper_Logger.Logger [SELECT * FROM Snipe INNER JOIN [SnipeUser] ON Snipe.UserID = User.UserID WHERE (((User.UserOptionsEndDate)> Now()) AND ((Snipe.[ItemEndDate])<#6/27/2010 17:46:9#) AND ((Snipe.[SnipeStatusID])=1) AND ((Snipe.[ValidityCheckInProgress])=0));] - ExecuteReaderQuery
+2010-06-28 13:44:49,672 [19] ERROR UltimateSniper_Logger.Logger [(null)] - Error__Timer_CheckSnipeValidity
+System.InvalidOperationException: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine.
+   at System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at UltimateSniper_DAL.DataBaseAdaptor.ExecuteReader(String q) in D:\UltimateSniper\UltimateSniper_DAL\Framework\DataBaseAdaptor.cs:line 75
+   at UltimateSniper_DAL.SnipeDataMapper.GetByCriteria(Query q) in D:\UltimateSniper\UltimateSniper_DAL\SnipeDataContext.cs:line 241
+   at UltimateSniper_DAL.BaseDataContext.GetByCriteria[T](Query query) in D:\UltimateSniper\UltimateSniper_DAL\Framework\BaseDataContext.cs:line 58
+   at UltimateSniper_ServiceLayer.SL_Scheduler.Timer_CheckSnipeValidity() in D:\UltimateSniper\UltimateSniper_ServiceLayer\SL_Scheduler.cs:line 365
+2010-06-28 13:44:49,672 [19] INFO  UltimateSniper_Logger.Logger [] - Ending__Timer_CheckSnipeValidity
